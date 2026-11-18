@@ -1,0 +1,8 @@
+﻿*.db
+*.db.*
+*.pem
+admin_awal.txt
+lisensi*
+*.zip
+node_modules/
+.superpowers/
