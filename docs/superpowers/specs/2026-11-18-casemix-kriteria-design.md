@@ -41,7 +41,7 @@ Casemix coders verify whether a diagnosis meets its clinical criteria before cod
 - `icd10.csv` — code and name; used for lookup and matching (from the old app's `icd10.csv`).
 - `sinonim.csv` — term → code synonyms (from old `sinonim_dx.csv`).
 
-**Matching (my call):** split input on new lines and semicolons (commas stay, since ICD names contain them); on single-line input, first pull out ICD-10 codes by pattern. For each item try: exact code → exact name → synonym → close text match. Items with no match, or several candidates, appear in the result list flagged "pick diagnosis" with a search box; they are never dropped. Diagnoses with no criteria show "no criteria in library".
+**Matching (my call):** split input on new lines, semicolons and commas (comma added 2026-11-18 at the user's request; a comma-separated run that exactly equals an ICD name or synonym, such as "Cholera, unspecified", is kept whole); on single-line input, first pull out ICD-10 codes by pattern. For each item try: exact code → exact name → synonym → close text match. Items with no match, or several candidates, appear in the result list flagged "pick diagnosis" with a search box; they are never dropped. Diagnoses with no criteria show "no criteria in library".
 
 **Screen (one page):** paste box + Identify button → list of diagnoses, each with its checklist, a count ("3 of 5 fulfilled"), and an overall badge. Required criteria all ticked = "Fulfilled"; otherwise lists what is missing (my call; non-required types are shown as supporting info and do not block). "Copy result as text" button for pasting back into SIMGOS. Clear button. A visible warning not to paste patient names or `no_rm`.
 
