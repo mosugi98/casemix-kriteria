@@ -1,0 +1,206 @@
+istilah,kode
+dhf,A91
+dengue hemorrhagic fever,A91
+dengue haemorrhagic fever,A91
+demam berdarah dengue,A91
+dbd,A91
+dengue fever,A90
+demam dengue,A90
+demam tifoid,A01.0
+tifoid,A01.0
+typhoid fever,A01.0
+tifus abdominalis,A01.0
+gastroenteritis akut,A09
+gastroenteritis,A09
+gea,A09
+diare akut,A09
+diare,A09
+malaria,B54
+malaria falciparum,B50.9
+malaria vivax,B51.9
+tb paru,A16.2
+tbc paru,A16.2
+tuberkulosis paru,A16.2
+tb paru bta positif,A15.0
+tuberkulosis paru bta positif,A15.0
+sepsis,A41.9
+syok septik,R57.2
+septic shock,R57.2
+pneumonia,J18.9
+community acquired pneumonia,J18.9
+cap,J18.9
+bronkopneumonia,J18.0
+pneumonia aspirasi,J69.0
+bronkitis akut,J20.9
+ispa,J06.9
+tonsilitis akut,J03.9
+faringitis akut,J02.9
+asma,J45.9
+asma bronkial,J45.9
+ppok,J44.9
+copd,J44.9
+ppok eksaserbasi akut,J44.1
+efusi pleura,J90
+pneumotoraks,J93.9
+edema paru,J81
+ards,J80
+chf,I50.0
+congestive heart failure,I50.0
+gagal jantung kongestif,I50.0
+gagal jantung,I50.9
+dekompensasi kordis,I50.0
+decompensatio cordis,I50.0
+stemi,I21.3
+nstemi,I21.4
+infark miokard akut,I21.9
+ima,I21.9
+angina pektoris tidak stabil,I20.0
+unstable angina,I20.0
+angina pektoris,I20.9
+penyakit jantung koroner,I25.1
+pjk,I25.1
+cad,I25.1
+hipertensi,I10
+atrial fibrilasi,I48
+stroke,I64
+stroke iskemik,I63.9
+stroke non hemoragik,I63.9
+snh,I63.9
+infark serebri,I63.9
+stroke hemoragik,I61.9
+perdarahan intraserebral,I61.9
+diabetes mellitus tipe 2,E11.9
+dm tipe 2,E11.9
+dm tipe ii,E11.9
+dm,E14.9
+diabetes mellitus,E14.9
+ketoasidosis diabetik,E10.1
+dka,E10.1
+hipoglikemia,E16.2
+hiperglikemia,R73.9
+hiponatremia,E87.1
+hipokalemia,E87.6
+hiperkalemia,E87.5
+dehidrasi,E86
+asidosis metabolik,E87.2
+malnutrisi,E46
+gizi buruk,E43
+hipertiroid,E05.9
+tirotoksikosis,E05.9
+gagal ginjal kronik,N18.9
+ckd,N18.9
+ckd stage v,N18.5
+gagal ginjal akut,N17.9
+aki,N17.9
+infeksi saluran kemih,N39.0
+isk,N39.0
+batu ginjal,N20.0
+nefrolitiasis,N20.0
+bph,N40
+sindrom nefrotik,N04.9
+pielonefritis,N10
+dispepsia,K30
+gastritis,K29.7
+gerd,K21.9
+melena,K92.1
+hematemesis melena,K92.2
+perdarahan saluran cerna,K92.2
+sirosis hepatis,K74.6
+hepatitis a,B15.9
+apendisitis akut,K35.8
+appendisitis akut,K35.8
+appendicitis akut,K35.8
+ileus obstruktif,K56.6
+hernia inguinalis,K40.9
+kolelitiasis,K80.2
+kolesistitis,K81.9
+pankreatitis akut,K85.9
+peritonitis,K65.9
+hemoroid,I84.9
+preeklamsia berat,O14.1
+pre eklamsia berat,O14.1
+peb,O14.1
+preeklamsia ringan,O14.0
+eklamsia,O15.9
+ketuban pecah dini,O42.9
+kpd,O42.9
+kehamilan ektopik terganggu,O00.9
+ketd,O00.9
+perdarahan postpartum,O72.1
+hpp,O72.1
+abortus inkomplit,O03.4
+bblr,P07.1
+asfiksia neonatorum,P21.9
+sepsis neonatorum,P36.9
+ikterus neonatorum,P59.9
+kejang demam,R56.0
+bronkiolitis,J21.9
+epilepsi,G40.9
+meningitis,G03.9
+ensefalitis,G04.9
+sinkop,R55
+anemia,D64.9
+anemia defisiensi besi,D50.9
+trombositopenia,D69.6
+thalassemia,D56.9
+leukemia,C95.9
+ca mamae,C50.9
+ca paru,C34.9
+ca serviks,C53.9
+limfoma,C85.9
+anafilaksis,T78.2
+syok hipovolemik,R57.1
+syok kardiogenik,R57.0
+selulitis,L03.9
+abses,L02.9
+tetanus,A35
+campak,B05.9
+varisela,B01.9
+difteri,A36.9
+covid 19,U07.1
+gagal napas,J96.9
+gagal nafas,J96.9
+gagal napas akut,J96.0
+gagal nafas akut,J96.0
+gagal napas kronik,J96.1
+respiratory failure,J96.9
+acute respiratory failure,J96.0
+adhf,I50.0
+acute decompensated heart failure,I50.0
+heart failure,I50.9
+hhd,I11.9
+penyakit jantung hipertensi,I11.9
+henti jantung,I46.9
+cardiac arrest,I46.9
+syok,R57.9
+hipotensi,I95.9
+bradikardia,R00.1
+takikardia,R00.0
+atrial fibrilasi rapid response,I48
+af rvr,I48
+status asmatikus,J46
+ppok eksaserbasi,J44.1
+edema paru akut,J81
+dengue shock syndrome,A91
+dss,A91
+observasi febris,R50.9
+febris,R50.9
+vertigo,R42
+sefalgia,R51
+cephalgia,R51
+nyeri kepala,R51
+kolik abdomen,R10.4
+nyeri perut,R10.4
+kolik renal,N23
+retensi urin,R33
+hematuria,R31
+konstipasi,K59.0
+hematemesis,K92.0
+ulkus peptikum,K27.9
+ensefalopati hepatikum,K72.9
+hipoalbuminemia,E88.0
+anemia gravis,D64.9
+hiv,B24
+aids,B24
+cedera kepala ringan,S06.0
+vulnus laceratum,T14.1
