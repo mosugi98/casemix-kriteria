@@ -87,7 +87,8 @@ function renderCard(entry, card) {
 }
 
 function identify() {
-  const all = splitInput($('input').value);
+  const known = (s) => lib.byName.has(s.toLowerCase()) || lib.syn.has(s.toLowerCase());
+  const all = splitInput($('input').value, known);
   const items = all.slice(0, MAX_ITEMS);
   $('copied').textContent = '';
   if (!items.length) {

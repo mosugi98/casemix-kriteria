@@ -6,8 +6,21 @@ test('normalizeCode uppercases and strips punctuation', () => {
   assert.equal(normalizeCode('j18.9'), 'J189');
 });
 
-test('splits on newline and semicolon but keeps commas', () => {
-  assert.deepEqual(splitInput('Pneumonia\nDiabetes mellitus, type 2;  J18.9'), ['Pneumonia', 'Diabetes mellitus, type 2', 'J18.9']);
+test('splits on newline, semicolon and comma', () => {
+  assert.deepEqual(splitInput('Pneumonia, Sepsis; Diabetes\nJ18.9, E11.9,I10'), ['Pneumonia', 'Sepsis', 'Diabetes', 'J18.9', 'E11.9', 'I10']);
+});
+
+test('a comma-containing name stays whole when it is known', () => {
+  const known = (s) => ['cholera, unspecified', 'diabetes mellitus, type 2'].includes(s.toLowerCase());
+  assert.deepEqual(splitInput('Cholera, unspecified, J18.9\nDiabetes mellitus, type 2; Sepsis', known), ['Cholera, unspecified', 'J18.9', 'Diabetes mellitus, type 2', 'Sepsis']);
+});
+
+test('unknown comma-containing text is split', () => {
+  assert.deepEqual(splitInput('Diabetes mellitus, type 2'), ['Diabetes mellitus', 'type 2']);
+});
+
+test('numbering after a comma is stripped and empty pieces are skipped', () => {
+  assert.deepEqual(splitInput('1. Pneumonia, 2. Sepsis,, '), ['Pneumonia', 'Sepsis']);
 });
 
 test('blank input gives empty list', () => {

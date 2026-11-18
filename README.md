@@ -5,7 +5,7 @@ Asisten verifikasi untuk coder casemix: tempel diagnosis, lihat daftar kriteria 
 **Jangan menempel nama pasien atau nomor RM.**
 
 ## Cara pakai
-1. Buka halaman, tempel diagnosis (satu per baris atau dipisah titik koma; kode ICD-10, nama, atau campuran).
+1. Buka halaman, tempel diagnosis (satu per baris, atau dipisah koma atau titik koma; kode ICD-10, nama, atau campuran). Nama ICD-10 yang memang memuat koma, misalnya "Cholera, unspecified", tetap dibaca utuh bila persis sama dengan daftar.
 2. Klik **Identifikasi**. Diagnosis yang tidak pasti ditampilkan sebagai pilihan atau kotak pencarian; tidak ada yang dibuang.
 3. Centang kriteria. Status **Terpenuhi** muncul bila semua kriteria `wajib` tercentang.
 4. **Salin hasil** untuk ditempel kembali ke SIMGOS.
