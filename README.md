@@ -11,7 +11,7 @@ Asisten verifikasi untuk coder casemix: tempel diagnosis, lihat daftar kriteria 
 4. **Salin hasil** untuk ditempel kembali ke SIMGOS.
 
 ## Memperbarui kriteria (admin / casemix)
-Edit `data/kriteria.csv` langsung di github.com lalu commit. Kolom: `kode,uraian,jenis` (satu baris = satu kriteria; `jenis` = `wajib` atau lainnya, misalnya `pendukung`; yang bukan `wajib` hanya informasi). Periksa dengan:
+Edit `data/kriteria.csv` langsung di github.com lalu commit. Kolom: `kode`, `uraian` (atau `kriteria`, seperti hasil unduhan aplikasi lama; kolom `nama` boleh ada), `jenis` (satu baris = satu kriteria; `jenis` = `wajib` atau lainnya, misalnya `pendukung`; yang bukan `wajib` hanya informasi). Periksa dengan:
 
 ```
 node scripts/validate-data.js

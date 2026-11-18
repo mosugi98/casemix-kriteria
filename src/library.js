@@ -21,11 +21,12 @@ export function buildLibrary({ icd = [], sinonim = [], kriteria = [] }) {
     if (r.istilah && r.kode) lib.syn.set(r.istilah.trim().toLowerCase(), normalizeCode(r.kode));
   }
   for (const r of kriteria) {
-    if (!r.kode || !r.uraian) continue;
+    const uraian = r.uraian || r.kriteria; // old app's export calls the text column "kriteria"
+    if (!r.kode || !uraian) continue;
     const key = normalizeCode(r.kode);
     const jenis = r.jenis || 'wajib';
     if (!lib.criteria.has(key)) lib.criteria.set(key, []);
-    lib.criteria.get(key).push({ uraian: r.uraian, jenis, wajib: jenis.trim().toLowerCase() === 'wajib' });
+    lib.criteria.get(key).push({ uraian, jenis, wajib: jenis.trim().toLowerCase() === 'wajib' });
   }
   return lib;
 }

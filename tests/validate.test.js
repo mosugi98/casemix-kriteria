@@ -28,3 +28,7 @@ test('reports synonym pointing to unknown code', () => {
   const p = validateData({ icd, sinonim: 'istilah,kode\nxx,Q99.9\n', kriteria: 'kode,uraian,jenis\n' });
   assert.ok(p.some((m) => m.includes('Q99.9')));
 });
+
+test('validator accepts "kriteria" as the criterion text column', () => {
+  assert.deepEqual(validateData({ icd, sinonim: sin, kriteria: 'kode,nama,kriteria,jenis\nJ18.9,Pneumonia,Demam,wajib\n' }), []);
+});

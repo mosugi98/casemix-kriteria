@@ -75,3 +75,8 @@ test('200 unmatched items against an 18k-entry library finish quickly', () => {
   for (let i = 0; i < 200; i++) matchItem(`penyakit tidak jelas nomor ${i} dengan keluhan demam`, big);
   assert.ok(performance.now() - t0 < 1500, `took ${Math.round(performance.now() - t0)} ms`);
 });
+
+test('library accepts the old app export column name "kriteria" as the criterion text', () => {
+  const l = buildLibrary({ icd: [], sinonim: [], kriteria: [{ kode: 'A01.0', nama: 'Typhoid fever', kriteria: 'Demam', jenis: 'wajib' }] });
+  assert.equal(l.criteria.get('A010')[0].uraian, 'Demam');
+});

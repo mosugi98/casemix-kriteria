@@ -7,7 +7,7 @@ import { normalizeCode } from '../src/split.js';
 const REQUIRED = {
   'icd10.csv': ['kode', 'nama'],
   'sinonim.csv': ['istilah', 'kode'],
-  'kriteria.csv': ['kode', 'uraian', 'jenis'],
+  'kriteria.csv': ['kode', 'uraian|kriteria', 'jenis'], // "a|b" = either column name is fine
 };
 
 const headerOf = (text) => text.replace(/^﻿/, '').split(/\r?\n/)[0].split(',').map((h) => h.trim().toLowerCase());
@@ -18,7 +18,7 @@ export function validateData({ icd, sinonim, kriteria }) {
   const texts = { 'icd10.csv': icd, 'sinonim.csv': sinonim, 'kriteria.csv': kriteria };
   for (const [file, cols] of Object.entries(REQUIRED)) {
     const head = headerOf(texts[file]);
-    for (const c of cols) if (!head.includes(c)) problems.push(`${file}: kolom "${c}" tidak ada`);
+    for (const c of cols) if (!c.split('|').some((name) => head.includes(name))) problems.push(`${file}: kolom "${c.replace('|', '" atau "')}" tidak ada`);
   }
   if (problems.length) return problems;
 
@@ -29,7 +29,7 @@ export function validateData({ icd, sinonim, kriteria }) {
   parseCsv(kriteria).forEach((r, i) => {
     if (!r.kode) problems.push(`kriteria.csv baris ${i + 2}: kode kosong`);
     else if (!codes.has(normalizeCode(r.kode))) problems.push(`kriteria.csv baris ${i + 2}: kode ${r.kode} tidak ada di icd10.csv`);
-    if (!r.uraian) problems.push(`kriteria.csv baris ${i + 2}: uraian kosong`);
+    if (!(r.uraian || r.kriteria)) problems.push(`kriteria.csv baris ${i + 2}: uraian kosong`);
   });
   return problems;
 }

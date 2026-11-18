@@ -125,8 +125,8 @@ async function copyResult() {
 async function importFile(file) {
   const text = await file.text();
   const rows = parseCsv(text);
-  if (!rows.length || !('kode' in rows[0]) || !('uraian' in rows[0])) {
-    $('libinfo').textContent = 'Berkas tidak dikenali: baris pertama harus berisi kolom kode,uraian,jenis.';
+  if (!rows.length || !('kode' in rows[0]) || !('uraian' in rows[0] || 'kriteria' in rows[0])) {
+    $('libinfo').textContent = 'Berkas tidak dikenali: baris pertama harus berisi kolom kode, uraian (atau kriteria), jenis.';
     return;
   }
   if (!writePersonal(text)) { $('libinfo').textContent = 'Browser ini tidak mengizinkan penyimpanan; kriteria pribadi tidak dapat dipasang.'; return; }

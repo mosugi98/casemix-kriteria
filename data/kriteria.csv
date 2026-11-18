@@ -1,1 +1,640 @@
-kode,uraian,jenis
+﻿kode,nama,kriteria,jenis
+A01.0,Typhoid fever,Demam beberapa hari dengan gejala saluran cerna dan/atau tanda tifoid tercatat,wajib
+A01.0,Typhoid fever,Salah satu dari: kultur darah/tinja positif; uji serologi mendukung (Tubex/IgM); Widal dengan interpretasi klinis,wajib
+A01.0,Typhoid fever,"Alasan rawat inap tercatat: dehidrasi, muntah, demam tinggi persisten, komplikasi, atau tidak dapat dirawat jalan",wajib
+A01.0,Typhoid fever,Antibiotik sesuai pedoman tercatat,wajib
+A01.0,Typhoid fever,Darah rutin dan fungsi hati,pendukung
+A01.0,Typhoid fever,"Pemantauan komplikasi (perdarahan usus, perforasi, ensefalopati)",pendukung
+A01.0,Typhoid fever,Catatan: Widal bernilai terbatas; konfirmasi kultur lebih kuat. Isi PNPK tifoid dewasa (KMK 875/2026) belum dibaca penuh,pendukung
+A04.9,"Bacterial intestinal infection, unspecified","Diare dengan tanda infeksi bakteri tercatat (demam, BAB berdarah/berlendir) atau hasil pemeriksaan tinja/kultur",wajib
+A04.9,"Bacterial intestinal infection, unspecified",Salah satu dari: dehidrasi sedang sampai berat; disentri berat; gagal terapi rawat jalan; komorbid berat,wajib
+A04.9,"Bacterial intestinal infection, unspecified",Rehidrasi dan antibiotik sesuai dugaan etiologi tercatat,wajib
+A04.9,"Bacterial intestinal infection, unspecified",Pemeriksaan tinja rutin dan kultur,pendukung
+A04.9,"Bacterial intestinal infection, unspecified",Elektrolit serum bila indikasi,pendukung
+A09.9,Gastroenteritis and colitis of unspecified origin,"Diare akut tercatat (BAB cair tiga kali atau lebih per hari, durasi dan frekuensi)",wajib
+A09.9,Gastroenteritis and colitis of unspecified origin,Salah satu dari: dehidrasi sedang sampai berat; gagal rehidrasi oral; muntah persisten; letargi/penurunan kesadaran; komorbid berat atau usia sangat muda,wajib
+A09.9,Gastroenteritis and colitis of unspecified origin,Rehidrasi tercatat (intravena atau oral terpantau) dengan evaluasi derajat dehidrasi berkala,wajib
+A09.9,Gastroenteritis and colitis of unspecified origin,Zink pada anak,pendukung
+A09.9,Gastroenteritis and colitis of unspecified origin,Elektrolit serum bila dehidrasi berat,pendukung
+A09.9,Gastroenteritis and colitis of unspecified origin,Pemeriksaan tinja bila BAB berdarah/lendir,pendukung
+A09.9,Gastroenteritis and colitis of unspecified origin,"Catatan: diare tanpa dehidrasi atau dengan dehidrasi ringan yang masih bisa rehidrasi oral berisiko dinilai tidak layak rawat inap. Bila sumber diketahui, pakai kode spesifik",pendukung
+A16.2,Tb lung without mention of bact or histological confirm,"Gejala TB (batuk lama, demam, berat badan turun, keringat malam) dan foto toraks sugestif TB tercatat",wajib
+A16.2,Tb lung without mention of bact or histological confirm,Tidak ada konfirmasi bakteriologis (TCM/BTA negatif atau tidak dilakukan) dengan alasan tercatat,wajib
+A16.2,Tb lung without mention of bact or histological confirm,"Alasan rawat inap tercatat: Salah satu dari: batuk darah; sesak/gagal napas; efusi pleura/pneumotoraks; komorbid berat (mis. DM tidak terkontrol, HIV); efek samping OAT berat; kondisi umum buruk",wajib
+A16.2,Tb lung without mention of bact or histological confirm,OAT dimulai atau dilanjutkan dengan regimen dan dosis tercatat,wajib
+A16.2,Tb lung without mention of bact or histological confirm,Pemeriksaan TCM Rif/BTA dan hasilnya,pendukung
+A16.2,Tb lung without mention of bact or histological confirm,Status HIV dan DM diperiksa,pendukung
+A16.2,Tb lung without mention of bact or histological confirm,Pencatatan kasus di SITB dan notifikasi,pendukung
+A16.2,Tb lung without mention of bact or histological confirm,"Catatan: bila TCM/BTA/biakan positif, kode yang sesuai adalah A15.x",pendukung
+A49.9,"Bacterial infection, unspecified","Infeksi bakteri didukung temuan klinis dan laboratorium tercatat (leukositosis, CRP/prokalsitonin)",wajib
+A49.9,"Bacterial infection, unspecified",Fokus infeksi dicari dan hasil pencarian tercatat,wajib
+A49.9,"Bacterial infection, unspecified",Antibiotik intravena tercatat dengan indikasi dan evaluasi respons,wajib
+A49.9,"Bacterial infection, unspecified",Kultur darah/spesimen sebelum antibiotik,pendukung
+A49.9,"Bacterial infection, unspecified","Catatan: kode tidak spesifik; bila sumber infeksi atau sepsis terdokumentasi, pakai kode spesifik",pendukung
+A90,Dengue fever [classical dengue],"Demam akut 2-7 hari dengan dua atau lebih gejala (nyeri kepala, nyeri retroorbita, mialgia/artralgia, ruam, manifestasi perdarahan) tercatat",wajib
+A90,Dengue fever [classical dengue],Dasar laboratorium tercatat: Salah satu dari: NS1; IgM/IgG dengue; leukopenia dengan trombositopenia,wajib
+A90,Dengue fever [classical dengue],"Alasan rawat inap tercatat: Salah satu dari: trombositopenia dengan tren turun; hematokrit meningkat; tanda bahaya (nyeri perut hebat, muntah persisten, perdarahan mukosa, letargi); tidak dapat minum",wajib
+A90,Dengue fever [classical dengue],Pemantauan darah lengkap berkala dan terapi cairan tercatat,wajib
+A90,Dengue fever [classical dengue],"Fase demam, kritis, pemulihan dicatat",pendukung
+A90,Dengue fever [classical dengue],Pemantauan tanda vital dan balans cairan,pendukung
+A90,Dengue fever [classical dengue],Catatan: ambang angka mengikuti PNPK dengue dewasa/anak versi yang berlaku,pendukung
+A91,Dengue haemorrhagic fever,Demam akut dengan manifestasi perdarahan (uji tourniquet positif atau perdarahan lain) tercatat,wajib
+A91,Dengue haemorrhagic fever,"Trombositopenia dan bukti kebocoran plasma tercatat (hematokrit meningkat, efusi pleura, asites, atau hipoalbuminemia)",wajib
+A91,Dengue haemorrhagic fever,Derajat DBD dan fase penyakit dicatat,wajib
+A91,Dengue haemorrhagic fever,Terapi cairan intravena dan pemantauan hematokrit/trombosit berkala tercatat,wajib
+A91,Dengue haemorrhagic fever,Pemantauan tanda vital dan diuresis,pendukung
+A91,Dengue haemorrhagic fever,NS1 atau serologi dengue,pendukung
+A91,Dengue haemorrhagic fever,Transfusi bila perdarahan hebat sesuai indikasi,pendukung
+A91,Dengue haemorrhagic fever,"Catatan: syok (DSS) bila ada tanda syok, dicatat dan diterapi sesuai pedoman",pendukung
+B05.2,Measles complicated by pneumonia,"Campak klinis tercatat (demam, ruam makulopapular, batuk/pilek/konjungtivitis; bercak Koplik bila ada)",wajib
+B05.2,Measles complicated by pneumonia,Pneumonia tercatat dengan tanda klinis dan/atau foto toraks,wajib
+B05.2,Measles complicated by pneumonia,"Terapi tercatat: vitamin A, antibiotik bila indikasi, oksigen bila hipoksemia, dukungan nutrisi",wajib
+B05.2,Measles complicated by pneumonia,Pemeriksaan IgM campak bila dikirim,pendukung
+B05.2,Measles complicated by pneumonia,Isolasi dan pelaporan surveilans penyakit yang dapat dicegah imunisasi,pendukung
+B05.2,Measles complicated by pneumonia,Status imunisasi campak tercatat,pendukung
+B05.9,Measles without complication,"Campak klinis tercatat (demam, ruam, batuk/pilek/konjungtivitis)",wajib
+B05.9,Measles without complication,Vitamin A dan isolasi,pendukung
+B16.9,Acute hepatitis b without delta-agent and without hepatatitis coma,"Hepatitis B akut dibuktikan serologi (HBsAg, IgM anti-HBc) tercatat",wajib
+B16.9,Acute hepatitis b without delta-agent and without hepatatitis coma,Pemantauan fungsi hati dan terapi suportif tercatat,wajib
+B18.1,Chronic viral hepatitis b without delta-agent,Hepatitis B kronik dibuktikan serologi (HBsAg positif berkepanjangan) tercatat,wajib
+B18.1,Chronic viral hepatitis b without delta-agent,Evaluasi fungsi hati/viral load atau terapi tercatat,wajib
+B34.9,"Viral infection, unspecified",Demam akut tanpa fokus infeksi jelas tercatat (durasi dan suhu),wajib
+B34.9,"Viral infection, unspecified","Pemeriksaan penyingkir penyakit lain tercatat (mis. darah lengkap, NS1/malaria/tifoid sesuai epidemiologi)",wajib
+B34.9,"Viral infection, unspecified",Alasan rawat inap tercatat: Salah satu dari: dehidrasi; tidak dapat minum; kejang demam; gangguan kesadaran; komorbid; hasil lab mencurigakan,wajib
+B34.9,"Viral infection, unspecified",Terapi suportif dan pemantauan,pendukung
+B34.9,"Viral infection, unspecified","Catatan: kode tidak spesifik dan sering diminta klarifikasi; bila diagnosis spesifik terbukti, pakai kode tersebut",pendukung
+B90.9,Sequelae of respiratory and unspecified tuberculosis,Riwayat TB yang telah selesai/sembuh tercatat (tahun dan kategori pengobatan bila diketahui),wajib
+B90.9,Sequelae of respiratory and unspecified tuberculosis,"Sekuele terdokumentasi (mis. fibrosis, bronkiektasis, destroyed lung, penebalan pleura) dari pencitraan/pemeriksaan",wajib
+B90.9,Sequelae of respiratory and unspecified tuberculosis,"Alasan rawat inap tercatat: gejala akut (hemoptisis, sesak, infeksi sekunder) dan terapinya",wajib
+B90.9,Sequelae of respiratory and unspecified tuberculosis,Pemeriksaan TCM/BTA untuk menyingkirkan TB aktif,pendukung
+B90.9,Sequelae of respiratory and unspecified tuberculosis,"Catatan: bila TB aktif, pakai A15/A16; sekuele hanya untuk keadaan setelah TB tuntas",pendukung
+C50.9,"Malignant neoplasm, breast, unspecified",Diagnosis keganasan payudara dibuktikan patologi anatomi/sitologi,wajib
+C50.9,"Malignant neoplasm, breast, unspecified",Stadium klinis dan rencana terapi (MDT) tercatat,wajib
+C50.9,"Malignant neoplasm, breast, unspecified",Tindakan/terapi rawat inap tercatat: Salah satu dari: mastektomi/BCS; kemoterapi; radioterapi; terapi paliatif,wajib
+C50.9,"Malignant neoplasm, breast, unspecified","Imunohistokimia (ER, PR, HER2, Ki-67)",pendukung
+C50.9,"Malignant neoplasm, breast, unspecified",Pencitraan stadium,pendukung
+C50.9,"Malignant neoplasm, breast, unspecified",[Berkas] Persetujuan tindakan dan laporan operasi/protokol kemoterapi,pendukung
+C50.9,"Malignant neoplasm, breast, unspecified",Catatan: sisi dan lokasi payudara sebaiknya spesifik (C50.0-C50.8),pendukung
+D48.5,Neoplasms of uncertain or unknown behaviour of skin,Lesi kulit dengan hasil patologi anatomi perilaku tidak pasti (atau keputusan klinis tercatat bila PA belum ada),wajib
+D48.5,Neoplasms of uncertain or unknown behaviour of skin,Tindakan tercatat: biopsi/eksisi dengan laporan operasi,wajib
+D48.5,Neoplasms of uncertain or unknown behaviour of skin,Hasil patologi anatomi dan tanggal pelaporan,pendukung
+D48.5,Neoplasms of uncertain or unknown behaviour of skin,Catatan: bila PA ganas pakai C43/C44; bila jinak pakai D22/D23; D48 memerlukan dasar PA,pendukung
+D48.6,Neoplasms of uncertain or unknown behaviour of breast,Massa payudara dengan hasil patologi anatomi perilaku tidak pasti,wajib
+D48.6,Neoplasms of uncertain or unknown behaviour of breast,Tindakan tercatat: eksisi/biopsi/mastektomi dengan laporan operasi,wajib
+D48.6,Neoplasms of uncertain or unknown behaviour of breast,Hasil patologi anatomi dan imunohistokimia bila ada,pendukung
+D48.6,Neoplasms of uncertain or unknown behaviour of breast,Pencitraan (USG/mamografi),pendukung
+D48.6,Neoplasms of uncertain or unknown behaviour of breast,Catatan: bila PA ganas pakai C50.x; bila jinak pakai D24/N60,pendukung
+D48.7,Neoplasms of uncertain or unknown behaviour of other specified sites,Lokasi tumor tercatat dengan hasil patologi anatomi perilaku tidak pasti,wajib
+D48.7,Neoplasms of uncertain or unknown behaviour of other specified sites,Tindakan tercatat (biopsi/eksisi/operasi) dengan laporan,wajib
+D48.7,Neoplasms of uncertain or unknown behaviour of other specified sites,Hasil patologi anatomi,pendukung
+D48.7,Neoplasms of uncertain or unknown behaviour of other specified sites,Catatan: kode lokasi spesifik dipakai bila ada; D48.7 untuk lokasi lain yang tidak punya kode khusus,pendukung
+D50.9,"Iron deficiency anaemia, unspecified",Hb rendah dengan indeks eritrosit dan/atau feritin mendukung defisiensi besi tercatat,wajib
+D50.9,"Iron deficiency anaemia, unspecified",Alasan rawat inap tercatat: Salah satu dari: Hb kurang dari 7 g/dL; gejala dekompensasi; perlu transfusi/besi parenteral,wajib
+D50.9,"Iron deficiency anaemia, unspecified",Terapi tercatat (transfusi PRC atau besi parenteral),wajib
+D50.9,"Iron deficiency anaemia, unspecified",Pencarian sumber kehilangan darah/penyebab,pendukung
+D50.9,"Iron deficiency anaemia, unspecified",Apus darah tepi,pendukung
+D50.9,"Iron deficiency anaemia, unspecified",Catatan: anemia ringan tanpa gejala umumnya rawat jalan,pendukung
+D62,Acute posthaemorrhagic anaemia,Perdarahan akut dengan penurunan Hb tercatat,wajib
+D62,Acute posthaemorrhagic anaemia,Terapi atau pemantauan atas anemia tercatat (transfusi/cairan),wajib
+D63.0,Anaemia in neoplastic disease,Neoplasma terdokumentasi dan Hb rendah tercatat,wajib
+D63.0,Anaemia in neoplastic disease,Evaluasi atau terapi anemia tercatat,wajib
+D63.8,Anaemia in other chronic diseases classified elsewhere,"Penyakit kronik penyebab terdokumentasi (mis. PGK, infeksi kronik) dan Hb rendah tercatat",wajib
+D63.8,Anaemia in other chronic diseases classified elsewhere,Evaluasi atau terapi anemia tercatat,wajib
+D64.9,"Anaemia, unspecified",Hb rendah tercatat dengan nilai dan jenis (indeks eritrosit),wajib
+D64.9,"Anaemia, unspecified","Alasan rawat inap tercatat (Hb sangat rendah, gejala dekompensasi, perdarahan aktif)",wajib
+D64.9,"Anaemia, unspecified",Terapi tercatat (transfusi atau terapi penyebab),wajib
+D64.9,"Anaemia, unspecified",Pencarian etiologi,pendukung
+D64.9,"Anaemia, unspecified","Catatan: bila jenis anemia diketahui, pakai kode spesifik",pendukung
+D69.6,"Thrombocytopenia, unspecified",Jumlah trombosit rendah tercatat dengan nilai,wajib
+D69.6,"Thrombocytopenia, unspecified",Pemantauan atau terapi atas trombositopenia tercatat,wajib
+E11.0,Non-insulin-dependent diabetes mellitus with coma,Penurunan kesadaran tercatat (GCS) pada pasien DM,wajib
+E11.0,Non-insulin-dependent diabetes mellitus with coma,"Jenis krisis ditentukan dengan data: Salah satu dari: hiperosmolar (glukosa sangat tinggi, osmolaritas tinggi); ketoasidosis (keton, pH); hipoglikemia berat (glukosa rendah dengan koma)",wajib
+E11.0,Non-insulin-dependent diabetes mellitus with coma,"Terapi tercatat sesuai jenis krisis: cairan, insulin intravena atau dekstrosa, koreksi elektrolit, dengan pemantauan ketat",wajib
+E11.0,Non-insulin-dependent diabetes mellitus with coma,"Analisis gas darah, elektrolit, keton, osmolaritas",pendukung
+E11.0,Non-insulin-dependent diabetes mellitus with coma,"Pencarian pencetus (infeksi, putus obat, MI)",pendukung
+E11.0,Non-insulin-dependent diabetes mellitus with coma,Perawatan intensif/HCU bila diberikan,pendukung
+E11.0,Non-insulin-dependent diabetes mellitus with coma,"Catatan: bila hanya ketoasidosis tanpa koma, kode yang sesuai adalah E11.1",pendukung
+E11.2,Non-insulin-dependent diabetes mellitus with renal complications,"Diagnosis DM tipe 2 ditegakkan sesuai kriteria PNPK (glukosa plasma puasa, glukosa 2 jam TTGO, HbA1c, atau glukosa sewaktu dengan gejala klasik) dan hasilnya tercatat",wajib
+E11.2,Non-insulin-dependent diabetes mellitus with renal complications,Nefropati diabetik terdokumentasi (albuminuria/proteinuria dan/atau penurunan eGFR/kreatinin),wajib
+E11.2,Non-insulin-dependent diabetes mellitus with renal complications,"Alasan rawat inap tercatat (dekompensasi, gagal ginjal akut atau kronik eksaserbasi, hiperkalemia, overload) dengan terapi",wajib
+E11.2,Non-insulin-dependent diabetes mellitus with renal complications,"Ureum, kreatinin, eGFR, elektrolit",pendukung
+E11.2,Non-insulin-dependent diabetes mellitus with renal complications,Kontrol glukosa dan tekanan darah,pendukung
+E11.2,Non-insulin-dependent diabetes mellitus with renal complications,"Catatan: bila PGK stadium 5, tambahkan N18.5 sebagai kode terkait",pendukung
+E11.4,Non-insulin-dependent diabetes mellitus with neurological complications,"Diagnosis DM tipe 2 ditegakkan sesuai kriteria PNPK (glukosa plasma puasa, glukosa 2 jam TTGO, HbA1c, atau glukosa sewaktu dengan gejala klasik) dan hasilnya tercatat",wajib
+E11.4,Non-insulin-dependent diabetes mellitus with neurological complications,Neuropati diabetik terdokumentasi (gejala neuropati dan pemeriksaan sensorik/monofilamen),wajib
+E11.4,Non-insulin-dependent diabetes mellitus with neurological complications,"Alasan rawat inap tercatat (nyeri neuropatik berat, ulkus kaki, kontrol glukosa) dengan terapi",wajib
+E11.4,Non-insulin-dependent diabetes mellitus with neurological complications,Pemeriksaan kaki dan penilaian risiko ulkus,pendukung
+E11.4,Non-insulin-dependent diabetes mellitus with neurological complications,Terapi nyeri neuropatik,pendukung
+E11.4,Non-insulin-dependent diabetes mellitus with neurological complications,"Pencarian penyebab lain neuropati (B12, alkohol, dll) bila relevan",pendukung
+E11.5,Non-insulin-dependent diabetes mellitus with peripheral circulatory complications,"Diagnosis DM tipe 2 ditegakkan sesuai kriteria PNPK (glukosa plasma puasa, glukosa 2 jam TTGO, HbA1c, atau glukosa sewaktu dengan gejala klasik) dan hasilnya tercatat",wajib
+E11.5,Non-insulin-dependent diabetes mellitus with peripheral circulatory complications,Komplikasi perifer terdokumentasi: Salah satu dari: ulkus/gangren kaki (derajat Wagner tercatat); PAD (ABI atau tanda iskemia),wajib
+E11.5,Non-insulin-dependent diabetes mellitus with peripheral circulatory complications,"Terapi tercatat: perawatan luka/debridemen, antibiotik, kontrol glukosa; amputasi/revaskularisasi bila indikasi dengan laporan",wajib
+E11.5,Non-insulin-dependent diabetes mellitus with peripheral circulatory complications,"Kultur luka, pencitraan (foto kaki, Doppler)",pendukung
+E11.5,Non-insulin-dependent diabetes mellitus with peripheral circulatory complications,Pemantauan infeksi dan sepsis,pendukung
+E11.5,Non-insulin-dependent diabetes mellitus with peripheral circulatory complications,Catatan: ulkus kaki diabetik dengan infeksi: dokumentasikan derajat infeksi,pendukung
+E11.7,Non-insulin-dependent diabetes mellitus with multiple complications,"Diagnosis DM tipe 2 ditegakkan sesuai kriteria PNPK (glukosa plasma puasa, glukosa 2 jam TTGO, HbA1c, atau glukosa sewaktu dengan gejala klasik) dan hasilnya tercatat",wajib
+E11.7,Non-insulin-dependent diabetes mellitus with multiple complications,"Dua atau lebih jenis komplikasi DM terdokumentasi (mis. nefropati dan neuropati), masing-masing dengan dasar pemeriksaan",wajib
+E11.7,Non-insulin-dependent diabetes mellitus with multiple complications,Alasan rawat inap tercatat dengan terapi,wajib
+E11.7,Non-insulin-dependent diabetes mellitus with multiple complications,Daftar komplikasi dicantumkan eksplisit pada diagnosis,pendukung
+E11.7,Non-insulin-dependent diabetes mellitus with multiple complications,Catatan: komplikasi yang tidak didokumentasikan berisiko dinilai tidak sesuai kode multipel,pendukung
+E11.9,Non-insulin-dependent diabetes mellitus without complications,"Diagnosis DM tipe 2 ditegakkan sesuai kriteria PNPK (glukosa plasma puasa, glukosa 2 jam TTGO, HbA1c, atau glukosa sewaktu dengan gejala klasik) dan hasilnya tercatat",wajib
+E11.9,Non-insulin-dependent diabetes mellitus without complications,Alasan akut rawat inap tercatat: Salah satu dari: hiperglikemia berat/dekompensasi; infeksi akut penyerta; muntah/tidak dapat makan; perlu inisiasi atau penyesuaian insulin yang memerlukan pemantauan,wajib
+E11.9,Non-insulin-dependent diabetes mellitus without complications,Pemantauan glukosa darah berkala dan terapi (insulin/OAD) tercatat,wajib
+E11.9,Non-insulin-dependent diabetes mellitus without complications,HbA1c dan profil lipid,pendukung
+E11.9,Non-insulin-dependent diabetes mellitus without complications,Keton urin/darah bila glukosa sangat tinggi,pendukung
+E11.9,Non-insulin-dependent diabetes mellitus without complications,Edukasi diet dan insulin,pendukung
+E11.9,Non-insulin-dependent diabetes mellitus without complications,Catatan: DM terkontrol tanpa kondisi akut umumnya rawat jalan; E11.9 berarti tanpa komplikasi kronik,pendukung
+E16.2,"Hypoglycaemia, unspecified",Kadar glukosa darah rendah tercatat dengan nilai dan gejala,wajib
+E16.2,"Hypoglycaemia, unspecified",Terapi (dekstrosa) dan pemantauan glukosa tercatat,wajib
+E78.0,Pure hypercholesterolaemia,Profil lipid dengan kolesterol tinggi tercatat,wajib
+E78.0,Pure hypercholesterolaemia,Terapi atau rencana terapi tercatat,wajib
+E78.9,"Disorder of lipoprotein metabolism, unspecified",Profil lipid abnormal tercatat,wajib
+E78.9,"Disorder of lipoprotein metabolism, unspecified",Terapi atau rencana terapi tercatat,wajib
+E79.0,Hyperuricaem without sign inflamm arthritis+tophaceous dis,Kadar asam urat serum tinggi tercatat dengan nilai,wajib
+E79.0,Hyperuricaem without sign inflamm arthritis+tophaceous dis,Terapi atau edukasi tercatat,wajib
+E86,Volume depletion,"Tanda dehidrasi tercatat (turgor, mukosa, takikardia, hipotensi) dengan derajatnya",wajib
+E86,Volume depletion,Rehidrasi dan evaluasi berkala tercatat,wajib
+E87.1,Hypo-osmolality and hyponatraemia,Kadar natrium serum rendah tercatat dengan nilai,wajib
+E87.1,Hypo-osmolality and hyponatraemia,Koreksi atau pemantauan natrium berkala tercatat,wajib
+E87.5,Hyperkalaemia,Kadar kalium serum tinggi tercatat dengan nilai,wajib
+E87.5,Hyperkalaemia,"Terapi penurun kalium dan pemantauan (EKG, kalium ulang) tercatat",wajib
+E87.6,Hypokalaemia,Kadar kalium serum rendah tercatat dengan nilai,wajib
+E87.6,Hypokalaemia,Koreksi kalium dan pemantauan ulang tercatat,wajib
+E88.0,Disorders of plasma-protein metabolism NEC,Kadar albumin serum rendah tercatat dengan nilai,wajib
+E88.0,Disorders of plasma-protein metabolism NEC,"Evaluasi penyebab atau terapi (infus albumin, nutrisi) tercatat",wajib
+G44.2,Tension-type headache,"Karakteristik nyeri kepala tipe tegang tercatat (bilateral, menekan, intensitas ringan-sedang)",wajib
+G44.2,Tension-type headache,Tanda bahaya (red flags) diperiksa dan penyebab sekunder disingkirkan,wajib
+G44.2,Tension-type headache,"Alasan rawat inap tercatat: nyeri refrakter terhadap terapi rawat jalan, muntah/dehidrasi, atau perlu pemeriksaan untuk menyingkirkan penyebab sekunder",wajib
+G44.2,Tension-type headache,Pemeriksaan neurologis dan penunjang (CT bila indikasi),pendukung
+G44.2,Tension-type headache,Analgesik dan terapi tercatat,pendukung
+G44.2,Tension-type headache,Catatan: nyeri kepala tipe tegang umumnya rawat jalan; rawat inap berisiko dinilai tidak layak tanpa alasan yang jelas,pendukung
+G47.0,Disorders of initiating and maintaining sleep [insomnias],Keluhan insomnia tercatat,wajib
+G47.0,Disorders of initiating and maintaining sleep [insomnias],Terapi atau evaluasi tercatat,wajib
+G63.2,Diabetic polyneuropathy,Polineuropati pada DM dibuktikan gejala dan pemeriksaan sensorik/monofilamen,wajib
+G63.2,Diabetic polyneuropathy,Terapi atau evaluasi neuropati tercatat,wajib
+G93.4,"Encephalopathy, unspecified",Penurunan kesadaran atau gangguan fungsi otak difus tercatat (GCS),wajib
+G93.4,"Encephalopathy, unspecified","Pencarian penyebab tercatat (metabolik, toksik, infeksi, hipertensi, hepatik, uremik)",wajib
+G93.4,"Encephalopathy, unspecified",Tata laksana penyebab dan perawatan suportif tercatat,wajib
+G93.4,"Encephalopathy, unspecified",Pencitraan otak dan laboratorium,pendukung
+G93.4,"Encephalopathy, unspecified",EEG bila indikasi,pendukung
+G93.4,"Encephalopathy, unspecified","Catatan: bila penyebab diketahui, pakai kode ensefalopati spesifik",pendukung
+G99.0,Autonomic neuropathy in endocrine and metabolic diseases,"Gejala/tanda disfungsi otonom pada pasien DM tercatat (mis. hipotensi ortostatik, gastroparesis)",wajib
+G99.0,Autonomic neuropathy in endocrine and metabolic diseases,Evaluasi atau terapi tercatat,wajib
+H81.1,Benign paroxysmal vertigo,Vertigo posisional tercatat dengan uji provokasi (mis. Dix-Hallpike) atau pemeriksaan vestibular,wajib
+H81.1,Benign paroxysmal vertigo,Alasan rawat inap tercatat: Salah satu dari: muntah hebat/dehidrasi; tidak dapat berjalan; penyebab sentral disingkirkan,wajib
+H81.1,Benign paroxysmal vertigo,"Terapi tercatat (manuver reposisi, obat simptomatik, rehidrasi)",wajib
+H81.1,Benign paroxysmal vertigo,Pemeriksaan neurologis dan penyingkiran stroke serebelum,pendukung
+H81.1,Benign paroxysmal vertigo,Catatan: BPPV umumnya rawat jalan,pendukung
+I10,Essential (primary) hypertension,Tekanan darah tercatat (pengukuran berulang) dan memenuhi kriteria hipertensi menurut PNPK,wajib
+I10,Essential (primary) hypertension,"Alasan rawat inap tercatat: Salah satu dari: krisis hipertensi dengan kerusakan organ target; hipertensi berat dengan gejala (nyeri kepala hebat, sesak, nyeri dada); tidak terkontrol dan memerlukan terapi parenteral",wajib
+I10,Essential (primary) hypertension,Terapi antihipertensi dengan pemantauan tekanan darah berkala tercatat,wajib
+I10,Essential (primary) hypertension,"Evaluasi kerusakan organ target (EKG, kreatinin, funduskopi, urinalisis)",pendukung
+I10,Essential (primary) hypertension,Catatan: hipertensi urgensi tanpa kerusakan organ target umumnya dapat dikelola rawat jalan,pendukung
+I12.0,Hypertensive renal disease with renal failure,Riwayat hipertensi dan penyakit ginjal kronik terdokumentasi (kreatinin/eGFR dan durasi),wajib
+I12.0,Hypertensive renal disease with renal failure,"Alasan rawat inap tercatat: uremia, hiperkalemia, overload cairan, asidosis, atau persiapan/pelaksanaan hemodialisis",wajib
+I12.0,Hypertensive renal disease with renal failure,"Terapi tercatat (hemodialisis, terapi medikamentosa, pengaturan cairan dan tekanan darah)",wajib
+I12.0,Hypertensive renal disease with renal failure,"Ureum, kreatinin, eGFR, elektrolit, Hb",pendukung
+I12.0,Hypertensive renal disease with renal failure,USG ginjal,pendukung
+I12.0,Hypertensive renal disease with renal failure,Catatan: stadium PGK dicantumkan (mis. N18.x) sebagai kode tambahan,pendukung
+I20.0,Unstable angina,"Salah satu dari: a) Nyeri dada saat istirahat berlangsung lebih dari 20 menit; b) Angina onset baru (setara CCS kelas III) dalam 2 bulan terakhir; c) Angina crescendo: makin sering, lama, atau berat pada penderita angina stabil.",wajib
+I20.0,Unstable angina,"Troponin serial tidak memenuhi kriteria infark miokard. Catatan: Jika memenuhi, kode menjadi I21.4.",wajib
+I21.4,Acute subendocardial myocardial infarction,Tanpa elevasi ST persisten pada EKG (dapat depresi ST/inversi T atau non-diagnostik).,wajib
+I21.4,Acute subendocardial myocardial infarction,"Troponin meningkat dengan dinamika naik/turun bermakna (membedakan dari angina tak stabil, I20.0).",wajib
+I21.9,"Acute myocardial infarction, unspecified",PERHATIAN: Kode tidak spesifik. Tentukan STEMI atau NSTEMI beserta lokasi sebelum klaim. Catatan: Casemix perlu menelaah ulang kode sebelum pengajuan.,pendukung
+I24.0,Coronary thrombosis not resulting in myocardial infarction,Trombus koroner dibuktikan angiografi atau imaging.,wajib
+I24.0,Coronary thrombosis not resulting in myocardial infarction,Troponin tidak memenuhi kriteria infark miokard.,wajib
+I24.0,Coronary thrombosis not resulting in myocardial infarction,[Berkas] Laporan angiografi dan resume terlampir.,pendukung
+I24.1,Dressler's syndrome,Onset hari sampai minggu setelah IMA atau operasi jantung.,wajib
+I24.1,Dressler's syndrome,Salah satu dari: a) Nyeri dada perikarditik; b) Friction rub perikard; c) Efusi perikard pada ekokardiografi.,wajib
+I24.1,Dressler's syndrome,Demam dan peningkatan penanda inflamasi (CRP/LED).,pendukung
+I25.2,Old myocardial infarction,Infark terjadi lebih dari 28 hari lalu dan tidak ada gejala iskemia akut saat ini.,wajib
+I25.2,Old myocardial infarction,"PERHATIAN: I25.2 biasanya kode tambahan (riwayat), bukan diagnosis utama rawat inap.",pendukung
+I26.0,Pulmonary embolism with mention of acute cor pulmonale,"Bukti beban/disfungsi RV akut: dilatasi RV, rasio RV/LV lebih dari 1, atau tanda tekanan arteri pulmonal tinggi pada eko/CT.",wajib
+I26.0,Pulmonary embolism with mention of acute cor pulmonale,Peningkatan troponin atau BNP/NT-proBNP.,pendukung
+I26.9,Pulmonary embolism without mention of acute cor pulmonale,Tidak ada bukti disfungsi RV akut pada ekokardiografi/CT (bila dilakukan).,wajib
+I51.0,"Cardiac septal defect, acquired",Defek septum didapat dibuktikan ekokardiografi/imaging dan bukan komplikasi IMA akut (bila pasca-IMA gunakan I23.1/I23.2).,wajib
+I51.3,"Intracardiac thrombosis, not elsewhere classified","Trombus dibuktikan ekokardiografi/TEE/CT/MRI (lokasi, ukuran) dan terapi antikoagulan tercatat.",wajib
+I51.4,"Myocarditis, unspecified","Gejala (nyeri dada, sesak, palpitasi) dengan riwayat infeksi atau pencetus tercatat.",wajib
+I51.4,"Myocarditis, unspecified",Salah satu dari: a) Troponin meningkat disertai perubahan EKG atau gangguan fungsi ventrikel pada eko; b) MRI jantung mendukung (kriteria Lake Louise) atau biopsi endomiokard.,wajib
+I51.4,"Myocarditis, unspecified","PERHATIAN: Bila penyebab diketahui (virus, difteri, dll.), gunakan kode etiologi (I40/I41).",pendukung
+I64,"Stroke, not specified as haemorrhage or infarction",Defisit neurologis fokal akut tercatat dengan waktu awitan,wajib
+I64,"Stroke, not specified as haemorrhage or infarction","Pencitraan otak belum dilakukan atau tidak dapat membedakan jenis stroke, dengan alasan tercatat",wajib
+I64,"Stroke, not specified as haemorrhage or infarction","Tata laksana stroke akut tercatat (pemantauan neurologis, tekanan darah, glukosa, dan terapi suportif)",wajib
+I64,"Stroke, not specified as haemorrhage or infarction",Skor NIHSS/GCS,pendukung
+I64,"Stroke, not specified as haemorrhage or infarction",EKG dan laboratorium,pendukung
+I64,"Stroke, not specified as haemorrhage or infarction",Rehabilitasi dini dan penilaian disfagia,pendukung
+I64,"Stroke, not specified as haemorrhage or infarction","Catatan: bila CT/MRI sudah dilakukan, kode yang sesuai adalah I61/I63; I64 menjadi tidak sesuai",pendukung
+I69.4,"Sequelae of stroke, not specified as haemorrhage or infarction",Riwayat stroke dan defisit sisa terdokumentasi,wajib
+I69.4,"Sequelae of stroke, not specified as haemorrhage or infarction",Penanganan defisit atau pencegahan sekunder tercatat,wajib
+I84.9,Unspecified haemorrhoids without complication,"Hemoroid dengan derajat dan keluhan tercatat (perdarahan, prolaps)",wajib
+I84.9,Unspecified haemorrhoids without complication,"Tindakan tercatat: hemoroidektomi/ligasi/tindakan lain dengan laporan, atau alasan rawat inap lain",wajib
+I84.9,Unspecified haemorrhoids without complication,Hb bila perdarahan,pendukung
+I84.9,Unspecified haemorrhoids without complication,Catatan: hemoroid derajat rendah umumnya dapat dirawat jalan,pendukung
+I95.9,"Hypotension, unspecified",Tekanan darah rendah tercatat dengan nilai,wajib
+I95.9,"Hypotension, unspecified",Evaluasi penyebab dan terapi (cairan) tercatat,wajib
+J15.9,"Bacterial pneumonia, unspecified",Gejala dan temuan fisik pneumonia tercatat,wajib
+J15.9,"Bacterial pneumonia, unspecified","Dasar penetapan etiologi bakteri tercatat: Salah satu dari: kultur/Gram sputum; penanda infeksi bakteri (leukositosis, CRP/prokalsitonin); respons terhadap antibiotik",wajib
+J15.9,"Bacterial pneumonia, unspecified",Antibiotik intravena sesuai pedoman penggunaan antibiotik tercatat,wajib
+J15.9,"Bacterial pneumonia, unspecified",Foto toraks infiltrat,pendukung
+J15.9,"Bacterial pneumonia, unspecified",Skor keparahan dan SpO2,pendukung
+J15.9,"Bacterial pneumonia, unspecified",Evaluasi antibiotik 48-72 jam tercatat,pendukung
+J17.1,Pneumonia in viral diseases classified elsewhere,Pneumonia dibuktikan klinis dan pencitraan,wajib
+J17.1,Pneumonia in viral diseases classified elsewhere,"Penyakit virus penyebab terdokumentasi (mis. campak, dengue, COVID-19)",wajib
+J17.1,Pneumonia in viral diseases classified elsewhere,Terapi tercatat,wajib
+J18.0,"Bronchopneumonia, unspecified","Gejala pneumonia tercatat (batuk, sesak, demam) dan temuan pemeriksaan fisik (ronki, takipnea)",wajib
+J18.0,"Bronchopneumonia, unspecified","Salah satu dari: foto toraks infiltrat; pada anak, kriteria klinis pneumonia sesuai pedoman (napas cepat, tarikan dinding dada)",wajib
+J18.0,"Bronchopneumonia, unspecified","Alasan rawat inap: dewasa: skor keparahan (mis. CURB-65 atau PSI) atau hipoksemia; anak: pneumonia berat (tarikan dinding dada, SpO2 rendah, tidak bisa minum) atau komorbid",wajib
+J18.0,"Bronchopneumonia, unspecified",Antibiotik intravena sesuai pedoman tercatat (dengan pemantauan respons),wajib
+J18.0,"Bronchopneumonia, unspecified",SpO2 berkala dan terapi oksigen bila hipoksemia,pendukung
+J18.0,"Bronchopneumonia, unspecified","Darah rutin, CRP, kultur bila indikasi",pendukung
+J18.0,"Bronchopneumonia, unspecified",Catatan: pneumonia dewasa memakai PNPK Pneumonia pada Dewasa; anak memakai pedoman rujukan anak; ambang angka mengikuti versi yang berlaku,pendukung
+J18.9,"Pneumonia, unspecified","Ro : pneumonia, gram sputum, terapi antibiotik >72 jam",wajib
+J18.9,"Pneumonia, unspecified",Gejala dan temuan fisik pneumonia tercatat,wajib
+J18.9,"Pneumonia, unspecified",Salah satu dari: foto toraks infiltrat; kriteria klinis pneumonia pada anak,wajib
+J18.9,"Pneumonia, unspecified","Alasan rawat inap tercatat (skor keparahan, hipoksemia, atau pneumonia berat pada anak)",wajib
+J18.9,"Pneumonia, unspecified",Antibiotik intravena dan terapi suportif tercatat,wajib
+J18.9,"Pneumonia, unspecified",SpO2 dan oksigen,pendukung
+J18.9,"Pneumonia, unspecified","Darah rutin, CRP, kultur bila indikasi",pendukung
+J18.9,"Pneumonia, unspecified","Catatan: bila bronkopneumonia atau pneumonia bakteri spesifik jelas, pakai J18.0 atau J15.x",pendukung
+J22,Unspecified acute lower respiratory infection,"Gejala infeksi saluran napas bawah akut tercatat (batuk, sesak, demam)",wajib
+J22,Unspecified acute lower respiratory infection,"Alasan rawat inap tercatat (hipoksemia, kesulitan napas, intoleransi oral)",wajib
+J22,Unspecified acute lower respiratory infection,"Terapi tercatat (oksigen, bronkodilator, antibiotik bila indikasi)",wajib
+J22,Unspecified acute lower respiratory infection,Foto toraks dan SpO2,pendukung
+J22,Unspecified acute lower respiratory infection,"Catatan: kode tidak spesifik; bila pneumonia, bronkiolitis, atau bronkitis jelas, pakai kode spesifik",pendukung
+J40,"Bronchitis, not specified as acute or chronic",Batuk dengan atau tanpa dahak; durasi tercatat (kurang dari 3 minggu mengarah akut J20; 3 bulan dalam 2 tahun berturut-turut dan penyebab lain tersingkir mengarah kronik J41/J42).,wajib
+J40,"Bronchitis, not specified as acute or chronic","Foto toraks menyingkirkan pneumonia bila ada demam, sesak, atau ronki fokal.",wajib
+J40,"Bronchitis, not specified as acute or chronic","PERHATIAN: J40 adalah kode tidak spesifik dan jarang membenarkan rawat inap sebagai diagnosis utama. Tentukan akut (J20), kronik (J41/J42), atau diagnosis lain yang lebih tepat. Catatan: Casemix wajib menelaah ulang sebelum klaim.",pendukung
+J40,"Bronchitis, not specified as acute or chronic","[Berkas] Resume memuat alasan rawat inap tertulis (hipoksemia, derajat sesak, dll.) dan diagnosis yang diperjelas.",pendukung
+J40,"Bronchitis, not specified as acute or chronic",[Berkas] Foto toraks dan bacaannya terlampir.,pendukung
+J40,"Bronchitis, not specified as acute or chronic","[Berkas] Bukti terapi (nebulisasi, oksigen, obat injeksi) di lembar pemberian obat.",pendukung
+J40,"Bronchitis, not specified as acute or chronic",[Berkas] Tanda vital serial termasuk SpO2 terdokumentasi di CPPT.,pendukung
+J42,Unspecified chronic bronchitis,Batuk produktif kronik tercatat (durasi dan frekuensi sesuai batasan bronkitis kronik),wajib
+J42,Unspecified chronic bronchitis,Alasan rawat inap tercatat: Salah satu dari: eksaserbasi dengan sesak meningkat; hipoksemia; gagal terapi rawat jalan; komorbid berat,wajib
+J42,Unspecified chronic bronchitis,"Terapi tercatat: bronkodilator, kortikosteroid sistemik bila indikasi, oksigen",wajib
+J42,Unspecified chronic bronchitis,Spirometri bila tersedia,pendukung
+J42,Unspecified chronic bronchitis,Foto toraks,pendukung
+J42,Unspecified chronic bronchitis,Antibiotik bila ada tanda infeksi (sputum purulen),pendukung
+J42,Unspecified chronic bronchitis,"Catatan: bila PPOK terdokumentasi, pakai J44.x",pendukung
+J46,Status asthmaticus,"Serangan asma berat tercatat (sesak berat, bicara terputus, otot bantu napas, SpO2 rendah)",wajib
+J46,Status asthmaticus,Respons tidak memadai terhadap terapi awal (nebulisasi bronkodilator) tercatat,wajib
+J46,Status asthmaticus,"Terapi tercatat: nebulisasi, kortikosteroid sistemik, oksigen",wajib
+J46,Status asthmaticus,Arus puncak ekspirasi/SpO2 berkala,pendukung
+J46,Status asthmaticus,AGD bila gagal napas mengancam,pendukung
+J46,Status asthmaticus,Pemicu serangan dan rencana pengendalian tercatat,pendukung
+J46,Status asthmaticus,Catatan: pedoman nasional asma (2008) sudah lama; PDPI/GINA lebih mutakhir dan belum diverifikasi di sini,pendukung
+J81,Pulmonary oedema,Sesak napas dengan ronki basah dan/atau gambaran foto toraks edema paru,wajib
+J81,Pulmonary oedema,Penyebab edema paru dinilai dan tercatat,wajib
+J81,Pulmonary oedema,Terapi tercatat: oksigen/dukungan napas dan diuretik atau terapi penyebab,wajib
+J81,Pulmonary oedema,SpO2/AGD,pendukung
+J81,Pulmonary oedema,"EKG, ekokardiografi, atau BNP bila indikasi",pendukung
+J81,Pulmonary oedema,Catatan: edema paru karena gagal jantung dikode I50.1 (J81 dikecualikan); J81 untuk penyebab nonkardiogenik atau tidak diketahui,pendukung
+J96.0,Acute respiratory failure,"Salah satu dari: a) AGD udara ruang: PaO2 kurang dari 60 mmHg atau rasio PaO2/FiO2 kurang dari 300; b) AGD: PaCO2 lebih dari 50 mmHg disertai pH kurang dari 7,35 (hiperkapnik akut); c) SpO2 kurang dari 90% pada udara ruang disertai tanda gawat napas, bila AGD tidak dapat dilakukan (alasan tertulis).",wajib
+J96.0,Acute respiratory failure,Onset akut atau perburukan akut (jam sampai hari) tercatat.,wajib
+J96.1,Chronic respiratory failure,Penyakit paru/dinding dada/neuromuskular kronik tercatat.,wajib
+J96.1,Chronic respiratory failure,Salah satu dari: a) Hipoksemia kronik: PaO2 55 mmHg atau kurang (atau 60 mmHg dengan tanda cor pulmonale/polisitemia); b) Hiperkapnia kronik: PaCO2 lebih dari 45-50 mmHg dengan bikarbonat tinggi dan pH terkompensasi.,wajib
+J96.1,Chronic respiratory failure,Salah satu dari: a) Perburukan akut di atas kronik (eksaserbasi) yang memerlukan perawatan; b) Inisiasi/penyesuaian oksigen jangka panjang atau NIV.,wajib
+J96.1,Chronic respiratory failure,"PERHATIAN: Bila ada perburukan akut di atas gagal napas kronik, pertimbangkan J96.0 sesuai kriteria akut.",pendukung
+J96.9,"Respiratory failure, unspecified",PERHATIAN: Kode tidak spesifik. Tentukan akut (J96.0) atau kronik (J96.1) sebelum klaim. Catatan: Casemix perlu menelaah ulang kode.,pendukung
+K30,Dyspepsia,"Keluhan dispepsia tercatat (nyeri/panas epigastrium, begah, cepat kenyang, mual) dengan durasi",wajib
+K30,Dyspepsia,"Alasan rawat inap tercatat: Salah satu dari: muntah persisten/dehidrasi; nyeri hebat; tanda bahaya (penurunan berat badan, anemia, disfagia, melena); gagal terapi rawat jalan; komorbid berat",wajib
+K30,Dyspepsia,"Terapi tercatat: antiasam/PPI, antiemetik, rehidrasi",wajib
+K30,Dyspepsia,"Pemeriksaan penyingkir diagnosis lain (EKG pada nyeri epigastrium, lab, USG)",pendukung
+K30,Dyspepsia,Endoskopi bila indikasi,pendukung
+K30,Dyspepsia,Catatan: dispepsia tanpa tanda bahaya umumnya dapat dikelola rawat jalan dan berisiko dinilai tidak layak rawat inap,pendukung
+K35.2,Acute appendicitis with generalized peritonitis,"Gejala dan temuan apendisitis tercatat (nyeri perut kanan bawah, nyeri tekan lepas, demam)",wajib
+K35.2,Acute appendicitis with generalized peritonitis,Peritonitis generalisata terdokumentasi (klinis dan/atau temuan intraoperatif: nanah/cairan bebas luas),wajib
+K35.2,Acute appendicitis with generalized peritonitis,Apendektomi (atau laparotomi) dengan laporan operasi memuat temuan,wajib
+K35.2,Acute appendicitis with generalized peritonitis,Antibiotik intravena dan perawatan pascabedah tercatat,wajib
+K35.2,Acute appendicitis with generalized peritonitis,"Pemeriksaan penunjang (leukosit, USG/CT)",pendukung
+K35.2,Acute appendicitis with generalized peritonitis,Hasil patologi anatomi bila dikirim,pendukung
+K35.2,Acute appendicitis with generalized peritonitis,"[Berkas] Persetujuan tindakan, laporan operasi, laporan anestesi",pendukung
+K35.8,"Acute appendicitis, other and unspecified",Gejala dan temuan apendisitis akut tercatat,wajib
+K35.8,"Acute appendicitis, other and unspecified",Dasar diagnosis tercatat: Salah satu dari: skor (mis. Alvarado); USG/CT; temuan intraoperatif,wajib
+K35.8,"Acute appendicitis, other and unspecified",Apendektomi dengan laporan operasi,wajib
+K35.8,"Acute appendicitis, other and unspecified",Leukosit/CRP,pendukung
+K35.8,"Acute appendicitis, other and unspecified",Hasil patologi anatomi,pendukung
+K35.8,"Acute appendicitis, other and unspecified","[Berkas] Persetujuan tindakan, laporan operasi, laporan anestesi",pendukung
+K37,Unspecified appendicitis,Gejala dan temuan apendisitis tercatat,wajib
+K37,Unspecified appendicitis,"Apendektomi dengan laporan operasi, atau alasan tidak dioperasi tercatat",wajib
+K37,Unspecified appendicitis,Pencitraan atau skor diagnostik,pendukung
+K37,Unspecified appendicitis,Catatan: diagnosis yang tidak menyebut akut/kronik diminta klarifikasi; pakai K35.x bila apendisitis akut jelas,pendukung
+K40.3,"Unilateral or unspecified inguinal hernia, with obstruction, without gangrene",Benjolan inguinal tidak dapat direduksi disertai gejala obstruksi/nyeri (inkarserata) tercatat,wajib
+K40.3,"Unilateral or unspecified inguinal hernia, with obstruction, without gangrene",Tindakan herniotomi/herniorafi dengan laporan operasi,wajib
+K40.3,"Unilateral or unspecified inguinal hernia, with obstruction, without gangrene","Tanda strangulasi dinilai (nyeri hebat, tanda iskemia)",pendukung
+K40.3,"Unilateral or unspecified inguinal hernia, with obstruction, without gangrene",[Berkas] Persetujuan tindakan dan laporan anestesi,pendukung
+K40.9,"Unilateral or unspecified inguinal hernia, without obstruction or gangrene",Benjolan inguinal terdiagnosis klinis atau USG tercatat,wajib
+K40.9,"Unilateral or unspecified inguinal hernia, without obstruction or gangrene",Herniorafi/hernioplasti dengan laporan operasi,wajib
+K40.9,"Unilateral or unspecified inguinal hernia, without obstruction or gangrene",Evaluasi praanestesi dan komorbid,pendukung
+K40.9,"Unilateral or unspecified inguinal hernia, without obstruction or gangrene",[Berkas] Persetujuan tindakan dan laporan anestesi,pendukung
+K56.6,Other and unspecified intestinal obstruction,"Gejala obstruksi tercatat (nyeri kolik, muntah, distensi, tidak flatus/BAB)",wajib
+K56.6,Other and unspecified intestinal obstruction,"Pencitraan mendukung (foto polos abdomen: air-fluid level, atau CT)",wajib
+K56.6,Other and unspecified intestinal obstruction,"Tata laksana tercatat: puasa, dekompresi (NGT), cairan/elektrolit; operasi bila indikasi dengan laporan",wajib
+K56.6,Other and unspecified intestinal obstruction,"Penyebab obstruksi dicari (adhesi, hernia, massa, volvulus)",pendukung
+K56.6,Other and unspecified intestinal obstruction,Elektrolit dan pemantauan balans cairan,pendukung
+K56.6,Other and unspecified intestinal obstruction,Tanda strangulasi dinilai,pendukung
+K59.0,Constipation,"Konstipasi tercatat (frekuensi BAB, konsistensi)",wajib
+K59.0,Constipation,"Terapi (laksatif, edukasi) tercatat",wajib
+K76.0,"Fatty (change of) liver, not elsewhere classified",Perlemakan hati dibuktikan USG atau pemeriksaan lain,wajib
+K76.0,"Fatty (change of) liver, not elsewhere classified",Evaluasi atau terapi/edukasi tercatat,wajib
+K92.1,Melaena,Tinja hitam berbau khas (melena) tercatat,wajib
+K92.1,Melaena,Evaluasi sumber perdarahan dan terapi tercatat,wajib
+K92.2,"Gastrointestinal haemorrhage, unspecified","Hematemesis, melena, atau hematokezia tercatat",wajib
+K92.2,"Gastrointestinal haemorrhage, unspecified",Status hemodinamik dan Hb tercatat,wajib
+K92.2,"Gastrointestinal haemorrhage, unspecified","Terapi tercatat: resusitasi cairan, PPI intravena, dan/atau transfusi sesuai indikasi",wajib
+K92.2,"Gastrointestinal haemorrhage, unspecified",Endoskopi dengan temuan sumber perdarahan,pendukung
+K92.2,"Gastrointestinal haemorrhage, unspecified",Golongan darah dan crossmatch,pendukung
+K92.2,"Gastrointestinal haemorrhage, unspecified",Skor risiko (mis. Glasgow-Blatchford) tercatat,pendukung
+K92.2,"Gastrointestinal haemorrhage, unspecified","Catatan: nomor KMK PNPK perdarahan saluran cerna belum terverifikasi; bila sumber diketahui (varises, ulkus), pakai kode spesifik",pendukung
+L02.4,"Cutaneous abscess, furuncle and carbuncle of limb","Abses ekstremitas tercatat (nyeri, fluktuasi, tanda inflamasi, lokasi)",wajib
+L02.4,"Cutaneous abscess, furuncle and carbuncle of limb",Insisi dan drainase dengan laporan tindakan,wajib
+L02.4,"Cutaneous abscess, furuncle and carbuncle of limb",Alasan rawat inap tercatat: Salah satu dari: abses luas/dalam; selulitis luas; DM atau imunokompromais; tanda sistemik,wajib
+L02.4,"Cutaneous abscess, furuncle and carbuncle of limb",Antibiotik dan perawatan luka,pendukung
+L02.4,"Cutaneous abscess, furuncle and carbuncle of limb",Kultur pus bila diambil,pendukung
+L02.4,"Cutaneous abscess, furuncle and carbuncle of limb",Gula darah bila DM,pendukung
+M19.96,"Arthrosis, unspecified, lower leg",Artrosis pada tungkai bawah tercatat (gejala dan/atau pencitraan),wajib
+M19.96,"Arthrosis, unspecified, lower leg",Terapi atau evaluasi tercatat,wajib
+M54.5,Low back pain,"Nyeri punggung bawah tercatat (lokasi, durasi, penjalaran)",wajib
+M54.5,Low back pain,"Tanda bahaya diperiksa (defisit neurologis, riwayat trauma, demam, keganasan) dan tercatat",wajib
+M54.5,Low back pain,"Alasan rawat inap tercatat: nyeri hebat refrakter, defisit neurologis, atau perlu pemeriksaan lebih lanjut",wajib
+M54.5,Low back pain,Pencitraan bila ada tanda bahaya,pendukung
+M54.5,Low back pain,Analgesik/fisioterapi,pendukung
+M54.5,Low back pain,Catatan: tanpa tanda bahaya umumnya rawat jalan,pendukung
+M79.1,Myalgia,Nyeri otot tercatat,wajib
+M79.1,Myalgia,Terapi simptomatik atau evaluasi tercatat,wajib
+N08.3,Glomerular disorders in diabetes mellitus,Nefropati glomerulus pada DM dibuktikan proteinuria/albuminuria,wajib
+N08.3,Glomerular disorders in diabetes mellitus,Evaluasi atau terapi tercatat,wajib
+N11.9,"Chronic tubulo-interstitial nephritis, unspecified",Riwayat ISK berulang/kelainan struktural atau bukti pielonefritis kronik tercatat,wajib
+N11.9,"Chronic tubulo-interstitial nephritis, unspecified","Alasan rawat inap tercatat: eksaserbasi (demam, nyeri pinggang) atau penurunan fungsi ginjal",wajib
+N11.9,"Chronic tubulo-interstitial nephritis, unspecified","Terapi tercatat (antibiotik, penanganan penyebab)",wajib
+N11.9,"Chronic tubulo-interstitial nephritis, unspecified","Ureum, kreatinin, eGFR",pendukung
+N11.9,"Chronic tubulo-interstitial nephritis, unspecified",USG ginjal atau pencitraan lain,pendukung
+N11.9,"Chronic tubulo-interstitial nephritis, unspecified","Catatan: bila pielonefritis akut, pakai N10",pendukung
+N17.9,"Acute renal failure, unspecified",Peningkatan kreatinin akut tercatat dengan nilai awal dan perubahan,wajib
+N17.9,"Acute renal failure, unspecified","Penyebab dicari dan terapi tercatat (cairan, hentikan nefrotoksik, dialisis bila indikasi)",wajib
+N18.5,"Chronic kidney disease, stage 5","PGK stadium 5 dibuktikan eGFR di bawah 15 mL/menit/1,73 m2 dan/atau kerusakan ginjal lebih dari 3 bulan, tercatat",wajib
+N18.5,"Chronic kidney disease, stage 5",Alasan rawat inap tercatat: Salah satu dari: uremia berat; overload cairan; hiperkalemia; asidosis; perikarditis/ensefalopati uremik; persiapan akses dan inisiasi dialisis,wajib
+N18.5,"Chronic kidney disease, stage 5",Terapi pengganti ginjal atau terapi konservatif intensif tercatat,wajib
+N18.5,"Chronic kidney disease, stage 5","Ureum, kreatinin, elektrolit, Hb",pendukung
+N18.5,"Chronic kidney disease, stage 5",Akses vaskular,pendukung
+N18.5,"Chronic kidney disease, stage 5",[Berkas] Lembar hemodialisis bila dialisis dilakukan,pendukung
+N18.5,"Chronic kidney disease, stage 5",Catatan: PNPK PGK dilaporkan sedang direvisi; cek versi terbaru,pendukung
+N19,Unspecified renal failure,Gangguan fungsi ginjal tercatat (kreatinin/eGFR),wajib
+N19,Unspecified renal failure,Evaluasi atau terapi tercatat,wajib
+N20.0,Calculus of kidney,Batu ginjal dikonfirmasi pencitraan (USG/BNO/CT),wajib
+N20.0,Calculus of kidney,Alasan rawat inap/tindakan tercatat: Salah satu dari: kolik refrakter; obstruksi disertai infeksi; gangguan fungsi ginjal; tindakan (ESWL/PCNL/URS/operasi),wajib
+N20.0,Calculus of kidney,Terapi atau tindakan dengan laporan,wajib
+N20.0,Calculus of kidney,"Urinalisis, kreatinin",pendukung
+N20.0,Calculus of kidney,Analgesik dan terapi ekspulsif bila diberikan,pendukung
+N20.0,Calculus of kidney,[Berkas] Persetujuan tindakan dan laporan operasi bila ada tindakan,pendukung
+N20.9,"Urinary calculus, unspecified",Batu saluran kemih dikonfirmasi pencitraan,wajib
+N20.9,"Urinary calculus, unspecified","Alasan rawat inap/tindakan tercatat (kolik refrakter, obstruksi, infeksi, tindakan)",wajib
+N20.9,"Urinary calculus, unspecified",Terapi atau tindakan dengan laporan,wajib
+N20.9,"Urinary calculus, unspecified","Urinalisis, kreatinin",pendukung
+N20.9,"Urinary calculus, unspecified","Catatan: bila lokasi batu diketahui, pakai N20.0-N20.2 atau N21",pendukung
+N39.0,"Urinary tract infection, site not specified",Gejala ISK tercatat dan urinalisis (leukosit/nitrit) atau kultur urin,wajib
+N39.0,"Urinary tract infection, site not specified","Alasan rawat inap tercatat: Salah satu dari: pielonefritis/demam tinggi; sepsis urologi; intoleransi oral/dehidrasi; kehamilan; obstruksi saluran kemih; komorbid (DM, imunosupresi)",wajib
+N39.0,"Urinary tract infection, site not specified",Antibiotik intravena sesuai pedoman tercatat,wajib
+N39.0,"Urinary tract infection, site not specified",Kultur urin dan sensitivitas,pendukung
+N39.0,"Urinary tract infection, site not specified",USG ginjal/saluran kemih bila indikasi,pendukung
+N39.0,"Urinary tract infection, site not specified",Catatan: sistitis tanpa penyulit umumnya rawat jalan,pendukung
+N40,Hyperplasia of prostate,Gejala LUTS/retensi urin tercatat dengan pemeriksaan colok dubur/USG,wajib
+N40,Hyperplasia of prostate,"Alasan rawat inap tercatat: retensi urin akut; gagal terapi medikamentosa; komplikasi (batu, infeksi, gangguan ginjal)",wajib
+N40,Hyperplasia of prostate,"Tindakan tercatat: kateterisasi, TURP, atau operasi lain dengan laporan",wajib
+N40,Hyperplasia of prostate,PSA bila dilakukan,pendukung
+N40,Hyperplasia of prostate,Ureum/kreatinin,pendukung
+N40,Hyperplasia of prostate,[Berkas] Persetujuan tindakan dan laporan operasi,pendukung
+N45.9,Orchitis epididymitis and epididymo-orchitis without abscess,Nyeri dan bengkak skrotum dengan tanda inflamasi tercatat,wajib
+N45.9,Orchitis epididymitis and epididymo-orchitis without abscess,Torsio testis disingkirkan (pemeriksaan klinis/USG Doppler) dan tercatat,wajib
+N45.9,Orchitis epididymitis and epididymo-orchitis without abscess,Antibiotik dan terapi suportif tercatat dengan alasan rawat inap,wajib
+N45.9,Orchitis epididymitis and epididymo-orchitis without abscess,Urinalisis/kultur urin,pendukung
+N45.9,Orchitis epididymitis and epididymo-orchitis without abscess,Penelusuran penyakit menular seksual bila relevan,pendukung
+N92.1,Excessive and frequent menstruation with irregular cycle,"Perdarahan uterus abnormal tercatat (lama, jumlah, pola)",wajib
+N92.1,Excessive and frequent menstruation with irregular cycle,Alasan rawat inap tercatat: Salah satu dari: perdarahan banyak; anemia berat; hemodinamik tidak stabil,wajib
+N92.1,Excessive and frequent menstruation with irregular cycle,"Terapi tercatat: hormonal, transfusi, atau tindakan (kuretase) dengan laporan",wajib
+N92.1,Excessive and frequent menstruation with irregular cycle,Hb dan tes kehamilan,pendukung
+N92.1,Excessive and frequent menstruation with irregular cycle,USG ginekologi,pendukung
+N92.1,Excessive and frequent menstruation with irregular cycle,Patologi anatomi jaringan bila kuretase,pendukung
+O02.0,Blighted ovum and nonhydatidiform mole,"USG menunjukkan kantong gestasi tanpa embrio (kehamilan anembrionik), atau mola non-hidatidiformis",wajib
+O02.0,Blighted ovum and nonhydatidiform mole,Tindakan tercatat: Salah satu dari: kuretase/aspirasi vakum; terapi medikamentosa evakuasi; dengan laporan tindakan,wajib
+O02.0,Blighted ovum and nonhydatidiform mole,Ukuran kantong gestasi dan hasil hCG serial bila ada,pendukung
+O02.0,Blighted ovum and nonhydatidiform mole,[Berkas] Persetujuan tindakan,pendukung
+O02.0,Blighted ovum and nonhydatidiform mole,Hasil patologi anatomi jaringan bila dikirim,pendukung
+O02.0,Blighted ovum and nonhydatidiform mole,Hb dan golongan darah/rhesus,pendukung
+O03.4,"Spontaneous abortion, incomplete, without complication",Perdarahan pervaginam dengan sebagian hasil konsepsi telah keluar; ostium terbuka atau sisa jaringan pada pemeriksaan/USG,wajib
+O03.4,"Spontaneous abortion, incomplete, without complication",Tindakan tercatat: Salah satu dari: kuretase/aspirasi vakum; terapi medikamentosa evakuasi; dengan laporan tindakan,wajib
+O03.4,"Spontaneous abortion, incomplete, without complication","Hb, golongan darah/rhesus",pendukung
+O03.4,"Spontaneous abortion, incomplete, without complication",[Berkas] Persetujuan tindakan,pendukung
+O03.4,"Spontaneous abortion, incomplete, without complication",Hasil patologi anatomi bila dikirim,pendukung
+O03.4,"Spontaneous abortion, incomplete, without complication","Catatan: bila disertai infeksi/perdarahan hebat/syok, kode abortus dengan komplikasi yang sesuai",pendukung
+O14.1,Severe pre-eclampsia,Usia gestasi 20 minggu atau lebih tercatat,wajib
+O14.1,Severe pre-eclampsia,"Salah satu dari: tekanan darah sistolik 160 atau lebih, atau diastolik 110 atau lebih; atau tanda berat/gangguan organ (nyeri kepala hebat, gangguan penglihatan, nyeri epigastrium, trombositopenia, peningkatan enzim hati, gangguan ginjal, edema paru). Ambang angka mengikuti PNPK versi yang berlaku",wajib
+O14.1,Severe pre-eclampsia,"Magnesium sulfat diberikan dengan pemantauan (refleks patela, frekuensi napas, diuresis), kecuali ada kontraindikasi yang dicatat",wajib
+O14.1,Severe pre-eclampsia,Keputusan terminasi atau manajemen konservatif tercatat oleh DPJP,wajib
+O14.1,Severe pre-eclampsia,"Pemeriksaan laboratorium: proteinuria, trombosit, SGOT/SGPT, kreatinin",pendukung
+O14.1,Severe pre-eclampsia,Antihipertensi sesuai indikasi dan pemantauan tekanan darah berkala,pendukung
+O14.1,Severe pre-eclampsia,Kortikosteroid antenatal bila usia gestasi memenuhi indikasi,pendukung
+O14.1,Severe pre-eclampsia,Pemantauan DJJ/CTG,pendukung
+O20.0,Threatened abortion,Perdarahan pervaginam pada usia gestasi kurang dari 20 minggu dengan ostium uteri tertutup,wajib
+O20.0,Threatened abortion,USG menunjukkan kehamilan intrauterin dengan janin hidup/kantong gestasi,wajib
+O20.0,Threatened abortion,"Terapi tercatat: tirah baring, progesteron, atau terapi lain sesuai indikasi",pendukung
+O20.0,Threatened abortion,Hb dan golongan darah/rhesus,pendukung
+O20.0,Threatened abortion,"Catatan: bila ostium terbuka atau jaringan keluar, kode yang sesuai adalah kode abortus yang relevan (abortus insipiens/inkomplit)",pendukung
+O21.0,Mild hyperemesis gravidarum,"Mual muntah berlebihan pada kehamilan, usia gestasi kurang dari 20 minggu",wajib
+O21.0,Mild hyperemesis gravidarum,"Dehidrasi atau gangguan asupan dinilai (mis. ketonuria, penurunan berat badan, intoleransi oral)",wajib
+O21.0,Mild hyperemesis gravidarum,Terapi tercatat: rehidrasi intravena dan antiemetik,wajib
+O21.0,Mild hyperemesis gravidarum,USG menyingkirkan mola atau kehamilan kembar,pendukung
+O21.0,Mild hyperemesis gravidarum,Elektrolit serum,pendukung
+O21.0,Mild hyperemesis gravidarum,Catatan: rawat inap dinilai layak bila terapi oral/rawat jalan gagal atau ada dehidrasi; tanpa itu berisiko dinilai tidak layak,pendukung
+O33.9,"Maternal care for disproportion, unspecified","Disproporsi (sefalopelvik/ukuran janin) dinilai dari pemeriksaan klinis, taksiran berat janin, atau penilaian panggul",wajib
+O33.9,"Maternal care for disproportion, unspecified",Salah satu dari: seksio sesarea dengan indikasi disproporsi; partus percobaan dengan pemantauan,wajib
+O33.9,"Maternal care for disproportion, unspecified",Taksiran berat janin (USG atau klinis),pendukung
+O33.9,"Maternal care for disproportion, unspecified",Riwayat persalinan sebelumnya,pendukung
+O33.9,"Maternal care for disproportion, unspecified",[Berkas] Persetujuan tindakan dan laporan operasi,pendukung
+O34.2,Maternal care due to uterine scar from previous surgery,"Riwayat seksio sesarea/operasi uterus lain tercatat di rekam medis (jenis, tahun, indikasi bila diketahui)",wajib
+O34.2,Maternal care due to uterine scar from previous surgery,Salah satu dari: a) seksio sesarea ulang dilakukan dengan laporan operasi; b) persalinan pervaginam percobaan pada bekas seksio (TOLAC) dengan pemantauan kemajuan persalinan dan DJJ,wajib
+O34.2,Maternal care due to uterine scar from previous surgery,"Indikasi seksio ulang tercatat (mis. riwayat seksio lebih dari satu kali, disproporsi, malpresentasi, gawat janin, plasenta previa)",pendukung
+O34.2,Maternal care due to uterine scar from previous surgery,Usia gestasi dan taksiran persalinan tercatat,pendukung
+O34.2,Maternal care due to uterine scar from previous surgery,[Berkas] Persetujuan tindakan operasi dan anestesi,pendukung
+O34.2,Maternal care due to uterine scar from previous surgery,[Berkas] Laporan operasi dan laporan anestesi lengkap,pendukung
+O34.2,Maternal care due to uterine scar from previous surgery,"Catatan: bila indikasi utama rawat inap adalah kondisi lain (mis. preeklampsia berat, plasenta previa), kode utama mengikuti kondisi tersebut sesuai kaidah koding",pendukung
+O36.3,Maternal care for signs of fetal hypoxia,"Tanda gawat janin tercatat (mis. DJJ abnormal, deselerasi lambat atau variabel berat pada CTG, mekonium kental pada air ketuban)",wajib
+O36.3,Maternal care for signs of fetal hypoxia,"Tindakan tercatat: resusitasi intrauterin (posisi, oksigen, cairan) dan/atau terminasi segera (seksio/vakum/forsep)",wajib
+O36.3,Maternal care for signs of fetal hypoxia,CTG atau pemantauan DJJ berkala tercatat,pendukung
+O36.3,Maternal care for signs of fetal hypoxia,Nilai Apgar bayi dan kondisi neonatus saat lahir,pendukung
+O36.3,Maternal care for signs of fetal hypoxia,[Berkas] Laporan persalinan/operasi,pendukung
+O36.4,Maternal care for intrauterine death,Kematian janin dikonfirmasi (tidak ada DJJ dengan USG),wajib
+O36.4,Maternal care for intrauterine death,Tindakan tercatat: induksi persalinan atau evakuasi/terminasi kehamilan dengan laporan,wajib
+O36.4,Maternal care for intrauterine death,Pemeriksaan koagulasi/fibrinogen bila waktu retensi lama,pendukung
+O36.4,Maternal care for intrauterine death,"Pencarian penyebab (infeksi, hipertensi, DM, plasenta, tali pusat) tercatat",pendukung
+O36.4,Maternal care for intrauterine death,Pemeriksaan patologi plasenta bila dikirim,pendukung
+O36.4,Maternal care for intrauterine death,[Berkas] Surat keterangan kematian perinatal/lahir mati,pendukung
+O42.1,"Premature rupture of membranes, onset of labour after 24 hours","Ketuban pecah sebelum ada tanda persalinan dikonfirmasi (waktu pecah tercatat; bukti cairan ketuban: pooling, lakmus, atau pemeriksaan lain)",wajib
+O42.1,"Premature rupture of membranes, onset of labour after 24 hours",Jeda antara pecah ketuban dan awal persalinan lebih dari 24 jam tercatat,wajib
+O42.1,"Premature rupture of membranes, onset of labour after 24 hours","Penatalaksanaan tercatat: Salah satu dari: antibiotik profilaksis; induksi/terminasi sesuai usia gestasi; observasi tanda infeksi (suhu, DJJ, nyeri uterus, cairan berbau)",wajib
+O42.1,"Premature rupture of membranes, onset of labour after 24 hours",Usia gestasi tercatat,pendukung
+O42.1,"Premature rupture of membranes, onset of labour after 24 hours","Pemeriksaan penunjang: leukosit/CRP, USG volume cairan ketuban",pendukung
+O42.1,"Premature rupture of membranes, onset of labour after 24 hours",Catatan: ketuban pecah dini dengan persalinan mulai dalam 24 jam memakai O42.0; pada kehamilan preterm dengan persalinan ditunda terapi memakai O42.2,pendukung
+O42.2,"Premature rupture of membranes, labour delayed by therapy",Ketuban pecah dini terkonfirmasi dengan usia gestasi tercatat (umumnya preterm),wajib
+O42.2,"Premature rupture of membranes, labour delayed by therapy",Persalinan sengaja ditunda (manajemen konservatif) dengan alasan tercatat,wajib
+O42.2,"Premature rupture of membranes, labour delayed by therapy",Terapi tercatat: Salah satu dari: kortikosteroid antenatal bila indikasi; antibiotik; tokolitik; pemantauan infeksi dan DJJ berkala,wajib
+O42.2,"Premature rupture of membranes, labour delayed by therapy",Pemeriksaan laboratorium penanda infeksi berkala,pendukung
+O42.2,"Premature rupture of membranes, labour delayed by therapy",USG: taksiran berat janin dan volume cairan ketuban,pendukung
+O42.2,"Premature rupture of membranes, labour delayed by therapy",Rencana terminasi dan kriteria terminasi tercatat,pendukung
+O44.1,Placenta praevia with haemorrhage,Plasenta previa dikonfirmasi USG,wajib
+O44.1,Placenta praevia with haemorrhage,"Perdarahan antepartum tercatat (jumlah, waktu, kondisi hemodinamik)",wajib
+O44.1,Placenta praevia with haemorrhage,Tata laksana tercatat: Salah satu dari: seksio sesarea; observasi konservatif dengan rawat inap dan persiapan darah,wajib
+O44.1,Placenta praevia with haemorrhage,"Hb, golongan darah dan crossmatch",pendukung
+O44.1,Placenta praevia with haemorrhage,Kortikosteroid antenatal bila usia gestasi memenuhi indikasi,pendukung
+O44.1,Placenta praevia with haemorrhage,[Berkas] Persetujuan tindakan dan laporan operasi,pendukung
+O47.0,False labour before 37 completed weeks of gestation,Usia gestasi kurang dari 37 minggu tercatat,wajib
+O47.0,False labour before 37 completed weeks of gestation,Kontraksi tanpa perubahan serviks yang progresif pada observasi (pemeriksaan serviks berulang tercatat),wajib
+O47.0,False labour before 37 completed weeks of gestation,Observasi his dan DJJ selama rawat inap,wajib
+O47.0,False labour before 37 completed weeks of gestation,CTG/NST,pendukung
+O47.0,False labour before 37 completed weeks of gestation,Terapi simptomatik/hidrasi/tokolitik bila diberikan,pendukung
+O47.0,False labour before 37 completed weeks of gestation,"Catatan: bila ada perubahan serviks yang progresif, kode yang sesuai adalah O60.0",pendukung
+O60.0,Preterm labour without delivery,Usia gestasi 20 sampai kurang dari 37 minggu tercatat,wajib
+O60.0,Preterm labour without delivery,Kontraksi teratur disertai perubahan serviks (pembukaan atau pendataran) pada pemeriksaan,wajib
+O60.0,Preterm labour without delivery,Terapi tercatat: Salah satu dari: tokolitik; kortikosteroid antenatal; magnesium sulfat untuk neuroproteksi janin bila indikasi; observasi ketat,wajib
+O60.0,Preterm labour without delivery,"USG: taksiran berat janin, letak janin, panjang serviks",pendukung
+O60.0,Preterm labour without delivery,"Pemeriksaan infeksi (urin, leukosit/CRP)",pendukung
+O60.0,Preterm labour without delivery,Rencana rujukan bila fasilitas perawatan neonatus tidak tersedia,pendukung
+O63.0,Prolonged first stage of labour,Partograf menunjukkan kemajuan kala I tidak adekuat (melewati garis waspada/garis tindakan atau pembukaan tidak maju),wajib
+O63.0,Prolonged first stage of labour,"Evaluasi penyebab (kekuatan his, janin, jalan lahir) tercatat oleh DPJP",wajib
+O63.0,Prolonged first stage of labour,Salah satu dari: a) augmentasi/induksi dengan pemantauan; b) seksio sesarea dengan indikasi kala I memanjang; c) observasi ketat dengan keputusan klinis tercatat,wajib
+O63.0,Prolonged first stage of labour,"Pemeriksaan dalam berkala (pembukaan, penurunan, molase) tercatat",pendukung
+O63.0,Prolonged first stage of labour,Pemantauan DJJ dan his berkala,pendukung
+O63.0,Prolonged first stage of labour,[Berkas] Partograf terisi lengkap,pendukung
+O63.1,Prolonged second stage of labour,Kala II melampaui batas waktu yang berlaku (umumnya lebih dari 2 jam pada nulipara dan lebih dari 1 jam pada multipara) dibuktikan catatan waktu pada partograf,wajib
+O63.1,Prolonged second stage of labour,Tindakan akhir persalinan tercatat: Salah satu dari: ekstraksi vakum/forsep; seksio sesarea; pimpinan persalinan lanjut dengan bukti kemajuan,wajib
+O63.1,Prolonged second stage of labour,Penilaian penurunan kepala dan posisi janin,pendukung
+O63.1,Prolonged second stage of labour,"Kondisi ibu (kelelahan, dehidrasi) dan DJJ tercatat",pendukung
+O63.1,Prolonged second stage of labour,[Berkas] Partograf dan laporan tindakan,pendukung
+O63.9,"Long labour, unspecified",Persalinan berlangsung lebih lama dari normal tercatat pada partograf,wajib
+O63.9,"Long labour, unspecified",Penanganan atau keputusan klinis atas keterlambatan kemajuan tercatat,wajib
+O64.0,Obstructed labour due to incomplete rotation of fetal head,Posisi kepala janin abnormal (oksiput posterior menetap/transversal menetap) tercatat dari pemeriksaan dalam,wajib
+O64.0,Obstructed labour due to incomplete rotation of fetal head,Kemajuan persalinan terhenti meski his adekuat (partograf),wajib
+O64.0,Obstructed labour due to incomplete rotation of fetal head,Salah satu dari: a) ekstraksi vakum/forsep; b) seksio sesarea; dengan laporan tindakan,wajib
+O64.0,Obstructed labour due to incomplete rotation of fetal head,Taksiran berat janin dan penilaian panggul,pendukung
+O64.0,Obstructed labour due to incomplete rotation of fetal head,[Berkas] Laporan tindakan persalinan,pendukung
+O64.1,Obstructed labour due to breech presentation,Presentasi bokong dikonfirmasi (pemeriksaan dalam atau USG),wajib
+O64.1,Obstructed labour due to breech presentation,"Persalinan terhambat atau kemajuan terhenti tercatat, atau keputusan persalinan sungsang dengan alasan tercatat",wajib
+O64.1,Obstructed labour due to breech presentation,"Salah satu dari: a) seksio sesarea; b) persalinan pervaginam dengan manuver sungsang oleh operator berkompeten, dengan laporan persalinan",wajib
+O64.1,Obstructed labour due to breech presentation,Taksiran berat janin dan penilaian panggul,pendukung
+O64.1,Obstructed labour due to breech presentation,[Berkas] Persetujuan tindakan dan laporan operasi/persalinan,pendukung
+O66.9,"Obstructed labour, unspecified",Kemajuan persalinan terhenti meski his adekuat tercatat,wajib
+O66.9,"Obstructed labour, unspecified",Tindakan akhir persalinan tercatat dengan laporan,wajib
+O68.9,"Labour and delivery complicated by fetal stress, unspecified",Tanda stres/gawat janin tercatat selama persalinan (DJJ atau CTG abnormal),wajib
+O68.9,"Labour and delivery complicated by fetal stress, unspecified",Tindakan atau pemantauan atas kondisi tersebut tercatat,wajib
+O70.2,Third degree perineal laceration during delivery,Robekan melibatkan kompleks sfingter ani tercatat pada laporan persalinan,wajib
+O70.2,Third degree perineal laceration during delivery,Penjahitan/perbaikan dengan laporan tindakan oleh operator berkompeten,wajib
+O70.2,Third degree perineal laceration during delivery,Antibiotik profilaksis dan pemantauan pascaperbaikan,pendukung
+O72.0,Third-stage haemorrhage,Perdarahan pada kala III dengan plasenta belum lahir tercatat (jumlah darah dan kondisi hemodinamik),wajib
+O72.0,Third-stage haemorrhage,Tindakan tercatat: Salah satu dari: pengeluaran plasenta manual; uterotonika; resusitasi cairan/transfusi,wajib
+O73.0,Retained placenta without haemorrhage,Plasenta belum lahir setelah batas waktu kala III tercatat,wajib
+O73.0,Retained placenta without haemorrhage,Tindakan pengeluaran plasenta tercatat dengan laporan,wajib
+O80.9,"Single spontaneous delivery, unspecified",Persalinan spontan pervaginam tercatat pada laporan persalinan,wajib
+O80.9,"Single spontaneous delivery, unspecified",[Berkas] Partograf dan laporan persalinan,pendukung
+O82.0,Delivery by elective caesarean section,Seksio sesarea terencana dengan indikasi tercatat,wajib
+O82.0,Delivery by elective caesarean section,[Berkas] Laporan operasi dan laporan anestesi,wajib
+O82.0,Delivery by elective caesarean section,[Berkas] Persetujuan tindakan,pendukung
+O82.1,Delivery by emergency caesarean section,"Indikasi kegawatan tercatat (mis. gawat janin, persalinan macet, perdarahan)",wajib
+O82.1,Delivery by emergency caesarean section,[Berkas] Laporan operasi dan laporan anestesi,wajib
+O82.1,Delivery by emergency caesarean section,[Berkas] Persetujuan tindakan,pendukung
+O99.0,"Anaemia complicating pregnancy, childbirth and the puerperium","Hb kurang dari 11 g/dL (trimester I dan III) atau kurang dari 10,5 g/dL (trimester II) tercatat",wajib
+O99.0,"Anaemia complicating pregnancy, childbirth and the puerperium",Salah satu dari: Hb kurang dari 7 g/dL; gejala dekompensasi; anemia menjelang persalinan yang memerlukan transfusi; kegagalan terapi besi oral,wajib
+O99.0,"Anaemia complicating pregnancy, childbirth and the puerperium",Terapi tercatat: transfusi PRC atau besi parenteral,wajib
+O99.0,"Anaemia complicating pregnancy, childbirth and the puerperium",Indeks eritrosit dan apus darah tepi,pendukung
+O99.0,"Anaemia complicating pregnancy, childbirth and the puerperium",Pemeriksaan feritin/besi serum bila ada,pendukung
+O99.0,"Anaemia complicating pregnancy, childbirth and the puerperium","Pencarian penyebab (defisiensi besi, perdarahan, infeksi, hemoglobinopati)",pendukung
+O99.8,"Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium",Penyakit/kondisi penyerta ditulis eksplisit oleh DPJP pada diagnosis (bukan hanya kode),wajib
+O99.8,"Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium",Kondisi tersebut dievaluasi atau diterapi selama rawat inap,wajib
+O99.8,"Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium",Kode kondisi spesifik dicantumkan sebagai diagnosis sekunder,pendukung
+O99.8,"Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium",Catatan: O99.8 hanya dipakai bila tidak ada kode O yang lebih spesifik; diagnosis yang terlalu umum berisiko diminta klarifikasi verifikator,pendukung
+P03.4,Fetus and newborn affected by caesarean delivery,Persalinan dengan seksio sesarea tercatat pada data kelahiran bayi,wajib
+P03.4,Fetus and newborn affected by caesarean delivery,[Berkas] Laporan operasi ibu,pendukung
+P07.1,Other low birth weight,Berat lahir tercatat pada rentang berat lahir rendah (1000 sampai 2499 gram),wajib
+P07.1,Other low birth weight,"Perawatan khusus BBLR tercatat (termoregulasi, nutrisi, pemantauan)",wajib
+P21.0,Severe birth asphyxia,Nilai Apgar menit pertama 0 sampai 3 tercatat (menit ke-5 dan ke-10 bila perlu),wajib
+P21.0,Severe birth asphyxia,"Resusitasi neonatus tercatat (langkah awal, ventilasi tekanan positif, kompresi dada, atau intubasi sesuai kebutuhan)",wajib
+P21.0,Severe birth asphyxia,"Perawatan pascaresusitasi dengan pemantauan (tanda vital, kesadaran, kejang, SpO2, glukosa) tercatat",wajib
+P21.0,Severe birth asphyxia,Analisis gas darah/pH tali pusat bila tersedia,pendukung
+P21.0,Severe birth asphyxia,Evaluasi ensefalopati hipoksik-iskemik (Sarnat/Thompson) tercatat,pendukung
+P21.0,Severe birth asphyxia,"Pemeriksaan fungsi organ (ginjal, hati, jantung) bila indikasi",pendukung
+P21.0,Severe birth asphyxia,[Berkas] Lembar resusitasi neonatus,pendukung
+P21.1,Mild and moderate birth asphyxia,Nilai Apgar menit pertama 4 sampai 7 tercatat,wajib
+P21.1,Mild and moderate birth asphyxia,Tindakan/pemantauan neonatus atas kondisi tersebut tercatat,wajib
+P22.0,Respiratory distress syndrome of newborn,Awitan dalam beberapa jam pertama kehidupan dengan memburuk dalam 24-48 jam pertama.,wajib
+P22.0,Respiratory distress syndrome of newborn,Prematur (umumnya usia gestasi kurang dari 34-37 minggu) atau faktor risiko surfaktan rendah.,wajib
+P22.0,Respiratory distress syndrome of newborn,"Foto toraks: pola retikulogranuler/ground-glass dan air bronchogram, volume paru rendah.",wajib
+P22.0,Respiratory distress syndrome of newborn,Kebutuhan O2 menetap atau dukungan napas (CPAP/ventilator/surfaktan).,wajib
+P22.1,Transient tachypnoea of newborn,"Neonatus aterm atau mendekati aterm, sering lahir SC.",wajib
+P22.1,Transient tachypnoea of newborn,Takipnea dengan retraksi ringan-sedang tanpa tanda infeksi yang jelas.,wajib
+P22.1,Transient tachypnoea of newborn,Perbaikan klinis dalam 24-72 jam (kurva klinis tercatat).,wajib
+P22.1,Transient tachypnoea of newborn,"Foto toraks: corakan perihiler prominen, cairan di fisura, hiperaerasi.",pendukung
+P23.9,"Congenital pneumonia, unspecified","Neonatus dengan distres napas (takipnea, retraksi, merintih, sianosis) pada awal kehidupan",wajib
+P23.9,"Congenital pneumonia, unspecified","Salah satu dari: foto toraks mendukung pneumonia; faktor risiko infeksi maternal (ketuban pecah lama, demam ibu, korioamnionitis); penanda infeksi abnormal (leukosit/CRP)",wajib
+P23.9,"Congenital pneumonia, unspecified",Antibiotik intravena dan dukungan napas/oksigen tercatat,wajib
+P23.9,"Congenital pneumonia, unspecified",Skor distres napas (Downes/Silverman) dan SpO2 berkala,pendukung
+P23.9,"Congenital pneumonia, unspecified",Kultur darah sebelum antibiotik,pendukung
+P23.9,"Congenital pneumonia, unspecified","Usia gestasi, berat lahir, dan nilai Apgar tercatat",pendukung
+P23.9,"Congenital pneumonia, unspecified","Catatan: distres napas lain pada neonatus (mis. TTN, RDS) memakai kode tersendiri; pneumonia kongenital perlu penanda infeksi/riwayat risiko yang jelas",pendukung
+P36.9,"Bacterial sepsis of newborn, unspecified","Tanda sepsis neonatus tercatat (letargi, tidak mau minum, suhu tidak stabil, apnea, distres napas, kejang, ikterus dini)",wajib
+P36.9,"Bacterial sepsis of newborn, unspecified","Faktor risiko dan/atau pemeriksaan penunjang tercatat (DPL, CRP/prokalsitonin, kultur darah)",wajib
+P36.9,"Bacterial sepsis of newborn, unspecified",Antibiotik empiris intravena dan perawatan suportif tercatat,wajib
+P36.9,"Bacterial sepsis of newborn, unspecified",Hasil kultur dan penyesuaian antibiotik,pendukung
+P36.9,"Bacterial sepsis of newborn, unspecified",Pungsi lumbal bila indikasi,pendukung
+P36.9,"Bacterial sepsis of newborn, unspecified",Durasi antibiotik dan evaluasi respons tercatat,pendukung
+P36.9,"Bacterial sepsis of newborn, unspecified",Catatan: PNPK Sepsis (KMK 342/2017) ditujukan untuk sepsis dewasa; tidak ditemukan PNPK khusus sepsis neonatorum. Kriteria disusun dari praktik klinis umum dan perlu ditinjau DPJP anak,pendukung
+P59.0,Neonatal jaundice associated with preterm delivery,Usia gestasi kurang dari 37 minggu dan kadar bilirubin tercatat,wajib
+P59.0,Neonatal jaundice associated with preterm delivery,Terapi (fototerapi/observasi) atas ikterus tercatat,wajib
+P59.9,"Neonatal jaundice, unspecified","Ikterus klinis disertai kadar bilirubin serum atau transkutan tercatat, dengan usia bayi saat pemeriksaan",wajib
+P59.9,"Neonatal jaundice, unspecified",Kadar bilirubin melampaui ambang fototerapi menurut usia dan faktor risiko (kurva rujukan yang digunakan disebutkan),wajib
+P59.9,"Neonatal jaundice, unspecified",Fototerapi dengan pemantauan bilirubin ulang tercatat,wajib
+P59.9,"Neonatal jaundice, unspecified","Faktor risiko: prematuritas, inkompatibilitas golongan darah, sepsis, G6PD, sefalhematoma",pendukung
+P59.9,"Neonatal jaundice, unspecified","Pemeriksaan golongan darah ibu-bayi, Coombs, DPL bila indikasi",pendukung
+P59.9,"Neonatal jaundice, unspecified","Pemantauan suhu, hidrasi, dan asupan minum",pendukung
+P59.9,"Neonatal jaundice, unspecified","Catatan: bila bilirubin di bawah ambang fototerapi, rawat inap berisiko dinilai tidak layak",pendukung
+P77,Necrotizing enterocolitis of fetus and newborn,"Tanda klinis tercatat (distensi abdomen, residu lambung, muntah, tinja berdarah)",wajib
+P77,Necrotizing enterocolitis of fetus and newborn,Foto abdomen menunjukkan temuan mendukung (mis. pneumatosis intestinalis) atau keputusan klinis tercatat,wajib
+P77,Necrotizing enterocolitis of fetus and newborn,"Terapi tercatat: puasa, dekompresi lambung, antibiotik, pemantauan; bedah bila indikasi",wajib
+R11,Nausea and vomiting,"Mual/muntah tercatat dengan frekuensi, durasi, dan karakter muntahan",wajib
+R11,Nausea and vomiting,Alasan rawat inap tercatat: Salah satu dari: dehidrasi; intoleransi asupan oral; gangguan elektrolit; muntah persisten refrakter terapi rawat jalan,wajib
+R11,Nausea and vomiting,Terapi tercatat: antiemetik dan rehidrasi dengan pemantauan,wajib
+R11,Nausea and vomiting,"Pencarian penyebab (infeksi, obstruksi, SSP, metabolik, kehamilan) tercatat",pendukung
+R11,Nausea and vomiting,Elektrolit serum bila muntah berkepanjangan,pendukung
+R11,Nausea and vomiting,"Catatan: R11 hanya dipakai bila tidak ada diagnosis definitif penyebabnya; bila penyebab jelas, pakai kode penyebab",pendukung
+R16.0,"Hepatomegaly, not elsewhere classified",Hepatomegali dibuktikan klinis atau USG,wajib
+R16.0,"Hepatomegaly, not elsewhere classified",Evaluasi penyebab tercatat,wajib
+R18,Ascites,Asites dibuktikan klinis atau USG,wajib
+R18,Ascites,"Evaluasi penyebab dan tata laksana (diuretik, parasentesis) tercatat",wajib
+R51,Headache,Keluhan nyeri kepala tercatat,wajib
+R51,Headache,Evaluasi atau terapi simptomatik tercatat,wajib
+R56.0,Febrile convulsions,"Kejang disertai demam pada anak (umumnya usia 6 bulan sampai 5 tahun) tercatat, tanpa tanda infeksi susunan saraf pusat",wajib
+R56.0,Febrile convulsions,Jenis kejang (sederhana atau kompleks) dan durasi tercatat,wajib
+R56.0,Febrile convulsions,Alasan rawat inap tercatat: Salah satu dari: kejang kompleks; kejang pertama; usia kurang dari 12 bulan; kejang berulang; penyebab demam perlu ditentukan,wajib
+R56.0,Febrile convulsions,Antikonvulsan dan antipiretik tercatat,pendukung
+R56.0,Febrile convulsions,Pungsi lumbal bila curiga meningitis (sesuai indikasi),pendukung
+R56.0,Febrile convulsions,Pencarian sumber demam,pendukung
+R56.0,Febrile convulsions,Catatan: pedoman IDAI kejang demam belum diverifikasi di sini,pendukung
+R57.1,Hypovolaemic shock,"Hipotensi dengan tanda hipoperfusi tercatat (akral dingin, pengisian kapiler lambat, oliguria, penurunan kesadaran)",wajib
+R57.1,Hypovolaemic shock,"Penyebab hipovolemia tercatat (perdarahan, dehidrasi berat, kebocoran plasma)",wajib
+R57.1,Hypovolaemic shock,Resusitasi cairan dan/atau darah dengan pemantauan hemodinamik tercatat,wajib
+R57.1,Hypovolaemic shock,"Laktat, Hb/hematokrit, elektrolit",pendukung
+R57.1,Hypovolaemic shock,Perawatan intensif/HCU bila diberikan,pendukung
+R57.1,Hypovolaemic shock,"Catatan: bila syok disebabkan penyakit spesifik (mis. dengue), kode spesifik menjadi utama sesuai kaidah",pendukung
+R63.8,Other symptoms and signs concerning food and fluid intake,"Gangguan asupan (mis. anoreksia, asupan kurang) tercatat",wajib
+R63.8,Other symptoms and signs concerning food and fluid intake,Penanganan nutrisi atau evaluasi tercatat,wajib
+R73.9,"Hyperglycaemia, unspecified",Kadar glukosa darah tinggi tercatat dengan nilai,wajib
+R73.9,"Hyperglycaemia, unspecified",Pemantauan atau terapi tercatat,wajib
+R74.0,Elevated levels of transaminase & lactic acid dehydrogenase,Hasil SGOT/SGPT meningkat tercatat dengan nilai,wajib
+R74.0,Elevated levels of transaminase & lactic acid dehydrogenase,Evaluasi penyebab atau pemantauan tercatat,wajib
+S06.0,Concussion,Trauma kepala dengan penurunan atau kehilangan kesadaran singkat tercatat (GCS dan mekanisme),wajib
+S06.0,Concussion,"Observasi neurologis berkala tercatat (GCS, pupil, muntah, kejang)",wajib
+S06.0,Concussion,Pemeriksaan pencitraan (CT) dilakukan sesuai indikasi atau alasan tidak dilakukan tercatat,wajib
+S06.0,Concussion,"Faktor risiko (usia, antikoagulan, amnesia, muntah berulang)",pendukung
+S06.0,Concussion,Edukasi pulang dan tanda bahaya,pendukung
+S06.0,Concussion,Catatan: cedera kepala ringan tanpa faktor risiko dapat dipulangkan setelah observasi,pendukung
+Z03.8,Observation for other suspected diseases and conditions,Alasan observasi (kondisi yang dicurigai) tercatat pada awal rawat inap,wajib
+Z03.8,Observation for other suspected diseases and conditions,"Pemantauan terjadwal selama rawat inap tercatat (tanda vital, gejala, pemeriksaan penunjang)",wajib
+Z03.8,Observation for other suspected diseases and conditions,Hasil akhir observasi tercatat: kondisi yang dicurigai tidak terbukti,wajib
+Z03.8,Observation for other suspected diseases and conditions,"Catatan: bila kondisi yang dicurigai terbukti, kode utama memakai diagnosis kondisi tersebut, bukan Z03",pendukung
