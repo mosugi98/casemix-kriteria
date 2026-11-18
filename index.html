@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kriteria Diagnosis Casemix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Kriteria Diagnosis Casemix</h1>
+  <p class="warn" role="note"><strong>Jangan menempel nama pasien atau nomor RM.</strong> Tempel hanya diagnosisnya. Teks diproses di browser ini dan tidak dikirim ke mana pun.</p>
+
+  <label for="input">Diagnosis (satu per baris, atau dipisah titik koma)</label>
+  <textarea id="input" rows="6" placeholder="J18.9&#10;Diabetes mellitus tipe 2&#10;Hipertensi"></textarea>
+  <div class="row">
+    <button id="go" type="button">Identifikasi</button>
+    <button id="clear" type="button" class="secondary">Bersihkan</button>
+  </div>
+
+  <p id="notice" class="hint" role="status"></p>
+  <section id="results" aria-live="polite"></section>
+
+  <div class="row" id="copyRow" hidden>
+    <button id="copy" type="button">Salin hasil</button>
+    <span id="copied" class="hint"></span>
+  </div>
+
+  <details>
+    <summary>Impor kriteria pribadi</summary>
+    <p class="hint">Berkas CSV dengan kolom <code>kode,uraian,jenis</code>. Menggantikan daftar kriteria bawaan, <strong>tersimpan di browser ini saja</strong>.</p>
+    <input id="file" type="file" accept=".csv,text/csv">
+    <button id="reset" type="button" class="secondary">Hapus kriteria pribadi</button>
+    <p id="libinfo" class="hint"></p>
+  </details>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -58,3 +58,20 @@ test('criteria are keyed by normalized code, with wajib flag; empty-code rows sk
   assert.equal(c[1].wajib, false);
   assert.equal(lib.criteria.has(''), false);
 });
+
+import { searchIcd } from '../src/match.js';
+
+test('searchIcd finds by code fragment or name word, case-insensitive, and is limited', () => {
+  assert.deepEqual(searchIcd('j18', lib).map((e) => e.code), ['J18.9']);
+  assert.deepEqual(searchIcd('SEPSIS', lib).map((e) => e.code), ['A41.9']);
+  assert.equal(searchIcd('unspecified', lib, 1).length, 1);
+  assert.deepEqual(searchIcd('  ', lib), []);
+});
+
+test('200 unmatched items against an 18k-entry library finish quickly', () => {
+  const icd = Array.from({ length: 18000 }, (_, i) => ({ kode: `X${String(i).padStart(5, '0')}`, nama: `Condition number ${i} of the body with fever and cough` }));
+  const big = buildLibrary({ icd, sinonim: [], kriteria: [] });
+  const t0 = performance.now();
+  for (let i = 0; i < 200; i++) matchItem(`penyakit tidak jelas nomor ${i} dengan keluhan demam`, big);
+  assert.ok(performance.now() - t0 < 1500, `took ${Math.round(performance.now() - t0)} ms`);
+});

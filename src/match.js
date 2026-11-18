@@ -1,10 +1,25 @@
 import { normalizeCode } from './split.js';
+import { words } from './library.js';
 
 const LEADING_CODE = /^([A-Za-z]\d{2}(?:\.?\d{1,4})?)(?![A-Za-z0-9])/;
 const MIN_COVERAGE = 0.5; // share of the input's words that must appear in an ICD name
 const MAX_CANDIDATES = 5;
 
-const words = (s) => s.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 3);
+// Manual search box: ICD entries whose code or name contains the query.
+export function searchIcd(query, lib, limit = 10) {
+  const q = query.trim().toLowerCase();
+  if (!q) return [];
+  const qCode = normalizeCode(q);
+  const out = [];
+  for (const e of lib.icd) {
+    const byCodePart = /\d/.test(qCode) && normalizeCode(e.code).includes(qCode);
+    if (byCodePart || e.name.toLowerCase().includes(q)) {
+      out.push(e);
+      if (out.length >= limit) break;
+    }
+  }
+  return out;
+}
 
 // Identify one pasted diagnosis: code, exact name, synonym, then close text.
 export function matchItem(item, lib) {
@@ -22,11 +37,10 @@ export function matchItem(item, lib) {
 
   const inWords = new Set(words(input));
   if (inWords.size) {
+    const hits = new Map(); // entry -> how many input words its name contains
+    for (const w of inWords) for (const e of lib.wordIndex.get(w) || []) hits.set(e, (hits.get(e) || 0) + 1);
     const scored = [];
-    for (const e of lib.icd) {
-      const nameWords = new Set(words(e.name));
-      let hit = 0;
-      for (const w of inWords) if (nameWords.has(w)) hit++;
+    for (const [e, hit] of hits) {
       const coverage = hit / inWords.size;
       if (coverage >= MIN_COVERAGE) scored.push({ e, coverage });
     }
